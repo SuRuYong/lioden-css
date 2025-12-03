@@ -1,9 +1,5 @@
-/* Tawny's css */
+/* BakaKoneko's css */
 /* Do NOT remove credit under any circumstances*/
-/* This specific CSS is ONLY for the use of user tawnycollar#251887 or any commissioners. do not use unless give explicit permission by tawny.*/
-/* A lot of people have helped me solve coding issues, but the code snippets themselves are scattered throughout the CSS and would be impossible to credit individually. I will be crediting/thanking them here. *\
-/* Thank you to hok-z #170947, pandora #144118, pluto #52831, ryouta#276513, katie #106445, pango #95222, and everybody in the liodevs server.*/
-/* If there is code here that resembles your own but isn't credited, please DM me. I do not intend to accidentally steal from people, so if some of your code was included here without credit, I'd be happy to add credit.*/
 
 
 /* font */
@@ -2214,3 +2210,4 @@ img[src$="stinkbug.png"] {
     box-shadow: 0 0 2vw 0.4vw var(--deepurple);
   }
 }
+
