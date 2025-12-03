@@ -790,7 +790,7 @@ div#lion_image {
 }
 
 #lion_image:after {
-content:url("https://github.com/SuRuYong/lioden-css/refs/heads/main/6b555763a9ff0815cff7d45480f03ff4d1ca4ab3.png?raw=true");
+content:url("https://github.com/SuRuYong/lioden-css/blob/main/6b555763a9ff0815cff7d45480f03ff4d1ca4ab3.png?raw=true");
 position:absolute;
 	left: -6px;
 	top: 10px;
