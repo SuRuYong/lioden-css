@@ -14,7 +14,7 @@ Please do NOT remove this credit, unless your coding becomes unrecognizable from
 body {
 	background: url('https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWFicno4dzNqM2NhMzJseGt1Y2dpZnhqeDI2dmFsczVsbTVrcGR4OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/RHIKETUlUINYvV7CAO/giphy.gif') center center fixed;
 	background-size: cover;
-        height: 20%;
+        height: 100%;
         width: 100%;
         background-repeat: no-repeat;
 	font-family: "Encode Sans SC", sans-serif;
