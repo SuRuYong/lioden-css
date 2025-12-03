@@ -1,3 +1,40 @@
 body {
-  background-color: hotpink !important;
+    background-image: url('ТВОЯ_ССЫЛКА_НА_КАРТИНКУ');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.lion-frame {
+    border: 4px solid gold;       /* цвет рамки */
+    border-radius: 12px;          /* скругление углов */
+    padding: 5px;
+    box-shadow: 0 0 10px gold;   /* начальное свечение */
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% { box-shadow: 0 0 10px gold; }
+    50% { box-shadow: 0 0 20px gold; }
+    100% { box-shadow: 0 0 10px gold; }
+}
+.lioden-text {
+    color: #fff;                  /* основной цвет текста */
+    font-family: 'Cursive', sans-serif; /* шрифт */
+    text-shadow: 0 0 5px #ff0, 0 0 10px #ff0; /* свечение */
+}
+button {
+    background-color: rgba(255, 215, 0, 0.8);
+    border: none;
+    border-radius: 8px;
+    padding: 5px 12px;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: gold;
+    transform: scale(1.05);
+    box-shadow: 0 0 10px gold;
 }
