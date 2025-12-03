@@ -7,7 +7,7 @@ Please do NOT remove this credit, unless your coding becomes unrecognizable from
 
 /* FONT (From Google Fonts) */
 
-@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
 /* Фон и весь текст не считая шапки, название логова */
 
@@ -17,7 +17,7 @@ body {
         height: 100%;
         width: 100%;
         background-repeat: no-repeat;
-	font-family: "Encode Sans SC", sans-serif;
+	font-family: "Comic Neue", cursive;
         color: #E6E6FA;
 }
 
@@ -45,7 +45,7 @@ background: linear-gradient(0deg, rgba(43,98,99,0.8044467787114846) 0%, rgba(17,
 	border: 2px solid #132F40;
 	border-top: none;
 	color: #D9919E;
-        font-family: "Pixelify Sans", sans-serif;
+        font-family: "Comic Neue", cursive;
 text-shadow: 1px 2px 2px black;
 	border-radius: 10px;
 }
@@ -65,7 +65,7 @@ color: #FFFFFF !important; }
 background: linear-gradient(0deg, rgba(43,98,99,0.8044467787114846) 0%, rgba(17,40,56,0.8688725490196079) 96%);
 	border-bottom: none;
 	color: #000000;
-        font-family: "Pixelify Sans", sans-serif;
+        font-family: "Comic Neue", cursive;
 text-shadow: 1px 2px 2px black;
 	border-radius: 10px;
         border: 2px solid #132F40;
@@ -194,7 +194,7 @@ h1 {
 	color: #ffe5c5 !important;
 	font-size: 60px;
 	text-align: center;
-        font-family: "Bona Nova SC", serif;
+        font-family: "Quintessential", serif;
 text-shadow: 1px 2px 2px #18403C;
 }
 
@@ -222,7 +222,7 @@ text-shadow: 1px 2px 2px #18403C;
 .sidebar h3 {
 	color: #ffe5c5 !important;
         font-size: 26px !important;
-        font-family: 'Bona Nova SC';
+        font-family: "Quintessential";
 }
 
 /* RIGHT SIDE PANELS */
@@ -326,7 +326,7 @@ button#label_currentChannel /* Channel Button ie. Main, Sales */ {
     width: 100%;
     height: 100%;
     opacity: 70%;
-    background-image:     url('https://64.media.tumblr.com/364b8a2cb768fb650a32bfbf9630612e/a4ee6018f377c225-c8/s1280x1920/7b413ed4cde79183b07b5e7f14a96673153cfacf.jpg') !important;
+    background-image:     url('https://wallpapershome.com/images/pages/pic_h/26273.jpg') !important;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -437,28 +437,28 @@ Please do not remove credit
  
 /* KING DYNASTY */
 img[src$="ancestors.jpg"] {
-    content:url('https://i.imgur.com/thSieKE.gif')!important;
+    content:url('https://i.imgur.com/ud3pALW.jpeg')!important;
     width:185px!important;
  
 }
  
 /* PRIDE DYNASTY */
 img[src$="ancestorsfem.png"] {
-    content:url('https://i.imgur.com/thSieKE.gif')!important;
+    content:url('https://i.imgur.com/ud3pALW.jpeg')!important;
     width:185px!important;
  
 }
  
 /* ACHIEVMENTS */
 img[src$="achievements.jpg"] {
-    content:url('https://i.imgur.com/thSieKE.gif')!important;
+    content:url('https://i.imgur.com/ud3pALW.jpeg')!important;
     width:185px!important;
  
 }
  
 /* SHOWCASE */
 img[src$="showcase/banner.png"] {
-    content:url('https://i.imgur.com/thSieKE.gif')!important;
+    content:url('https://i.imgur.com/ud3pALW.jpeg')!important;
     width:185px!important;
  
 }
@@ -809,13 +809,13 @@ opacity: 100%;
 /* LIODEN LOGO REPLACER */
 
 div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
-	content: url('https://i.postimg.cc/Sxb46Yq7/hakuskipskid.gif')
+	content: url('https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExem83ZDVnbThtOWk0bjdvY3VwMDgzdWl2cWozM2hkcHFwYjZlY3RneSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/wMQTobBKTpmg5TLuZ5/giphy.gif')
 }
 
 /* CAVE / MOUND IMAGES HOK'S #41458 CODE */
 /*Unsorted Lions*/
 img[src$="unsortedlionsbanner.png"] {
-content: url('https://i.imgur.com/HucZbTT.jpeg')!important;
+content: url('https://i.imgur.com/hpmeNES.jpeg')!important;
 opacity: 70%;
 transition: opacity 0.3s ease;
 
@@ -827,7 +827,7 @@ opacity: 100%;
 
 /*Nesting*/
 img[src$="nestingbanner.png"] {
-content: url('https://i.imgur.com/SAYOVnC.jpeg')!important;
+content: url('https://i.imgur.com/hpmeNES.jpeg')!important;
 opacity: 70%;
 transition: opacity 0.3s ease;
 }
@@ -838,7 +838,7 @@ opacity: 100%;
 
 /*Overview*/
 img[src$="overviewbanner.png"] {
-content: url('https://i.imgur.com/po0pe96.jpeg')!important;
+content: url('https://i.imgur.com/7AQQbqv.jpeg')!important;
 opacity: 70%;
 transition: opacity 0.3s ease;
 }
@@ -848,7 +848,7 @@ opacity: 100%;}
 
 /* Other caves */
 img[src$="cavedefault.jpg"] {
-content: url("https://i.imgur.com/f2odelM.jpeg") !important;
+content: url("https://i.imgur.com/hpmeNES.jpeg") !important;
 opacity: 70%;
 transition: opacity 0.3s ease;
 }
@@ -901,7 +901,7 @@ Please do not remove credit
  
 .member-offline, .member-online {
     background: rgba(207,207,207,0);
-    content:url('https://i.imgur.com/zlhSRB9.gif')!important;
+    content:url('https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExajZwazg5dmltNmVxZTV3enV3YzFwYndqczZrYjdicnFiZzNzMG9mOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/S6Z6vk4Ex19kb5OjO8/giphy.gif')!important;
      width:25px!important;
      height:25px;
  
