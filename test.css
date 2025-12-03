@@ -1,10 +1,11 @@
-.news blockquote,
-.forum blockquote {
-	background: rgba(228, 105, 30, 0.5);
-	border-left: 3px solid rgba(0, 0, 0, 0.5);
-	font-size: 1.2em;
-	margin: 12px auto;
-	padding-left: 2em;
-	padding: 0.75em 1.5em 0.75em 0.75em;
-	position: relative;
-}
+/*
+Free to use CSS template by Katie (#106445).
+This code may be altered, edited, or re-uploaded. 
+This template may be used to create paid codes (pre-mades and commissions).
+Please do NOT remove this credit, unless your coding becomes unrecognizable from this one! 
+*/
+
+/* FONT (From Google Fonts) */
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet');
+
