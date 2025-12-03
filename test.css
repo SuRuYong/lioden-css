@@ -26,7 +26,7 @@ body {
 /* RIGHT SIDE */
 .container.main {
 	background: rgba(1, 255, 255, 0.05);
-	border: 2px solid #132F40;
+	border: 2px solid #483D8B;
 	box-shadow: none;
 	border-radius: 0px
 }
@@ -42,18 +42,18 @@ body {
 .topbar {
 	background: rgb(43,98,99);
 background: linear-gradient(0deg, rgba(43,98,99,0.8044467787114846) 0%, rgba(17,40,56,0.8688725490196079) 96%);
-	border: 2px solid #132F40;
+	border: 2px solid #483D8B;
 	border-top: none;
-	color: #D9919E;
+	color: #bfb9f0;
         font-family: "Comic Neue", cursive;
 text-shadow: 1px 2px 2px black;
 	border-radius: 10px;
 }
 .container.topbar .welcomeback a {
-    color: #F2D1CE !important;
+    color: #8f86cf !important;
 }
 ul.toplinks a { 
-color: #F2D1CE !important;
+color: #8f86cf !important;
 }
 ul.toplinks a:hover { 
 color: #FFFFFF !important; }
@@ -68,7 +68,7 @@ background: linear-gradient(0deg, rgba(43,98,99,0.8044467787114846) 0%, rgba(17,
         font-family: "Comic Neue", cursive;
 text-shadow: 1px 2px 2px black;
 	border-radius: 10px;
-        border: 2px solid #132F40;
+        border: 2px solid #483D8B;
 }
 
 /* NAVBAR BUTTON TEXT COLOR */
@@ -142,14 +142,14 @@ opacity: 80%;
 input.floatright {
 	background: rgb(43,98,99);
 background: linear-gradient(0deg, rgba(43,98,99,0.8044467787114846) 0%, rgba(17,40,56,0.8688725490196079) 96%)!important;
-        border: 2px solid #132F40 !important;
+        border: 2px solid #483D8B !important;
 	border-radius: 10px;
 	color: #7EA8A8 !important;    
 }
 input.floatright:hover { 
 background: rgb(43,98,99);
 background: linear-gradient(0deg, rgba(43,98,99,0.8044467787114846) 0%, rgba(17,40,56,0.8688725490196079) 96%)!important;
-        border: 2px solid #132F40 !important;
+        border: 2px solid #483D8B !important;
 	border-radius: 10px;
 	color: #18D9D9 !important; 
         text-shadow: 1px 1px 2px #18D9D9 !important;
@@ -160,7 +160,7 @@ background: linear-gradient(0deg, rgba(43,98,99,0.8044467787114846) 0%, rgba(17,
 button.button {
 	background: rgb(43,98,99);
 background: linear-gradient(0deg, rgba(43,98,99,0.8044467787114846) 0%, rgba(17,40,56,0.8688725490196079) 96%)!important;
-        border: 2px solid #132F40 !important;
+        border: 2px solid #483D8B !important;
 	border-radius: 10px;
         color: #7EA8A8 !important; 
 }
@@ -168,7 +168,7 @@ background: linear-gradient(0deg, rgba(43,98,99,0.8044467787114846) 0%, rgba(17,
 button.button:hover {
 	background: rgb(43,98,99);
 background: linear-gradient(0deg, rgba(43,98,99,0.8044467787114846) 0%, rgba(17,40,56,0.8688725490196079) 96%)!important;
-        border: 2px solid #132F40 !important;
+        border: 2px solid #483D8B !important;
 	border-radius: 10px;
         color: #18D9D9 !important; 
         text-shadow: 1px 1px 2px #18D9D9 !important;
@@ -532,7 +532,7 @@ text-shadow: 1px 2px 2px #0c2a3c !important;
 /* LINK HOVER COLOR */
 
 a:hover {
-	color: #D9919E !important;
+	color: #bfb9f0 !important;
 }
 
 
@@ -564,7 +564,7 @@ a:hover {
 background: linear-gradient(0deg, rgba(43,98,99,0.8044467787114846) 0%, rgba(17,40,56,0.8688725490196079) 96%);
 	color: #ffe5c5;
 	padding: 10px;
-	border: solid 1px #F2D1CE;
+	border: solid 1px #8f86cf;
     box-shadow: 0px 0px 10px 2px #0c2a3c;
 	border-radius: 5px;
 	margin: 5px;
@@ -582,7 +582,7 @@ background: linear-gradient(0deg, rgba(43,98,99,0.8044467787114846) 0%, rgba(17,
 background: linear-gradient(0deg, rgba(43,98,99,0.8044467787114846) 0%, rgba(17,40,56,0.8688725490196079) 96%);
 	color: #ffe5c5;
 	padding: 10px;
-	border: solid 1px #F2D1CE;
+	border: solid 1px #8f86cf;
     box-shadow: 0px 0px 10px 2px #0c2a3c;
 	border-radius: 5px;
 	margin: 5px;
@@ -600,7 +600,7 @@ background: linear-gradient(0deg, rgba(43,98,99,0.8044467787114846) 0%, rgba(17,
 background: linear-gradient(0deg, rgba(43,98,99,0.8044467787114846) 0%, rgba(17,40,56,0.8688725490196079) 96%);
 	color: #ffe5c5;
 	padding: 10px;
-	border: solid 1px #F2D1CE;
+	border: solid 1px #8f86cf;
         box-shadow: 0px 0px 10px 2px #0c2a3c;
 	border-radius: 5px;
 	margin: 5px;
@@ -620,7 +620,7 @@ background: linear-gradient(0deg, rgba(43,98,99,0.8044467787114846) 0%, rgba(17,
 background: linear-gradient(0deg, rgba(43,98,99,0.8044467787114846) 0%, rgba(17,40,56,0.8688725490196079) 96%);
 	color: #ffe5c5;
 	padding: 10px;
-	border: solid 1px #F2D1CE;
+	border: solid 1px #8f86cf;
     box-shadow: 0px 0px 10px 2px #0c2a3c;
 	border-radius: 5px;
 	margin: 5px;
@@ -643,7 +643,7 @@ background: linear-gradient(0deg, rgba(43,98,99,0.8044467787114846) 0%, rgba(17,
 background: linear-gradient(0deg, rgba(43,98,99,0.8044467787114846) 0%, rgba(17,40,56,0.8688725490196079) 96%);
 	color: #ffe5c5;
 	padding: 10px;
-	border: solid 1px #F2D1CE;
+	border: solid 1px #8f86cf;
     box-shadow: 0px 0px 10px 2px #0c2a3c;
 	border-radius: 5px;
 	margin: 5px;
@@ -666,7 +666,7 @@ background: linear-gradient(0deg, rgba(43,98,99,0.8044467787114846) 0%, rgba(17,
 background: linear-gradient(0deg, rgba(43,98,99,0.8044467787114846) 0%, rgba(17,40,56,0.8688725490196079) 96%);
 	color: #ffe5c5;
 	padding: 10px;
-	border: solid 1px #F2D1CE;
+	border: solid 1px #8f86cf;
     box-shadow: 0px 0px 10px 2px #0c2a3c;
 	border-radius: 5px;
 	margin: 5px;
@@ -766,7 +766,7 @@ div#lion_image {
 }
 
 div#lion_image:hover {
-    box-shadow: 0px 0px 3px 1px #F2D1CE;
+    box-shadow: 0px 0px 3px 1px #8f86cf;
     opacity: 100%;
     transition: 0.3 ease;
   }
@@ -789,6 +789,12 @@ div#lion_image {
 	margin-left: 12px /* May need adjusting */
 }
 
+#lion_image:after {
+content:url("https://github.com/SuRuYong/lioden-css/refs/heads/main/6b555763a9ff0815cff7d45480f03ff4d1ca4ab3.png?raw=true");
+position:absolute;
+	left: -6px;
+	top: 10px;
+}
 
 table#player img {
 	border-radius: 50% !important;
