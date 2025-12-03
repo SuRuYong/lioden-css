@@ -245,8 +245,8 @@ background: rgb(72,91,115);
 
 /* ENERGY BAR COLOR */
 .progress-bar {
-         background: #3f2a9b;
-background: linear-gradient(90deg,rgba(63, 42, 155, 0.97) 0%, rgba(106, 83, 237, 1) 50%, rgba(87, 137, 199, 1) 100%);
+         background: #535061;
+background: linear-gradient(90deg,rgba(83, 80, 97, 0.97) 0%, rgba(100, 96, 143, 1) 50%, rgba(133, 165, 204, 1) 100%);
 	color: #000000 !important;
 	border-radius: 10px !important;
         
