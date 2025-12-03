@@ -245,10 +245,10 @@ background: rgb(72,91,115);
 
 /* ENERGY BAR COLOR */
 .progress-bar {
-         background: rgb(10,96,115);
-background: linear-gradient(90deg, rgba(10,96,115,1) 0%, rgba(24,217,217,1) 100%);
+         background: #3f2a9b;
+background: linear-gradient(90deg,rgba(63, 42, 155, 0.97) 0%, rgba(106, 83, 237, 1) 50%, rgba(87, 137, 199, 1) 100%);
 	color: #000000 !important;
-	border-radius: 6px !important;
+	border-radius: 10px !important;
         
     
 }
@@ -506,7 +506,7 @@ text-shadow: 1px 2px 2px #0c2a3c !important;
 /* ACCOUNT OPTIONS ON/OFF TOGGLE SWITCH */
 
 div.slider.round /* Background */ {
-	background: #FF !important
+	background: #FFF !important
 }
 
 div.slider.round::before /* Circle Part */ {
@@ -789,13 +789,6 @@ div#lion_image {
 	margin-left: 12px /* May need adjusting */
 }
 
-#lion_image:after {
-content:url("https://github.com/SuRuYong/lioden-css/blob/main/6b555763a9ff0815cff7d45480f03ff4d1ca4ab3.png?raw=true");
-position:absolute;
-	left: -6px;
-	top: 10px;
-}
-
 table#player img {
 	border-radius: 50% !important;
 	overflow: hidden;
@@ -918,38 +911,38 @@ display: none; }
 
 /* TIME */
  
-/* TIME DAY */
+/* TIME DAY 
 img[src$="day.png"] {
     content:url('https://i.imgur.com/7Kl1yjG.gif')!important;
     width:20px!important;
  
 }
  
-/* TIME NIGHT */
+/* TIME NIGHT 
 img[src$="night.png"] {
     content:url('https://i.imgur.com/cdldmBx.gif')!important;
     width:20px!important;
-}
+} */
  
 /* SEASON */
  
-/* DRY SEASON */
+/* DRY SEASON 
 img[src$="dry.png"] {
     content:url('https://i.imgur.com/Q9tyPDj.png')!important;
     width:20px!important;
  
-}
+} */
 /* GB/SB ICONS */
  
 /* GOLD BEETLE */
-img[src$="gold.png"] {
+/* img[src$="gold.png"] {
     content:url('https://i.postimg.cc/ht9zScF8/d9vd2cn-fcbba210-a375-4320-92b4-f7a03b95e359.gif')!important;
     width:20px!important;
  
-}
+} */
  
 /* SILVER BEETLE */
-img[src$="silver.png"] {
+/* img[src$="silver.png"] {
     content:url('https://i.postimg.cc/wBgtMZHC/silver.gif')!important;
     width:20px!important;
  
@@ -957,28 +950,28 @@ img[src$="silver.png"] {
  
 /* EVENT CURRENCY */
  
-/* JAN */
+/* JAN 
 img[src$="dermestid.png"] {
     content:url('https://i.imgur.com/rfhy9d9.png')!important;
     width:20px!important;
  
 }
  
-/* FEB */
+/* FEB 
 img[src$="heartshell.png"] {
     content:url('https://i.imgur.com/rfhy9d9.png')!important;
     width:20px!important;
  
 }
  
-/* MARCH */
+/* MARCH 
 img[src$="beetlerhino.png"] {
     content:url('https://i.imgur.com/rfhy9d9.png')!important;
     width:20px!important;
  
 }
  
-/* APRIL */
+/* APRIL 
 img[src$="easteregg.png"] {
     content:url('https://i.imgur.com/rfhy9d9.png')!important;
     width:20px!important;
@@ -986,93 +979,94 @@ img[src$="easteregg.png"] {
 }
  
  
-/* MAY */
+/* MAY 
 img[src$="beetlemant.png"] {
     content:url('https://i.imgur.com/rfhy9d9.png')!important;
     width:20px!important;
  
 }
  
-/* JUNE */
+/* JUNE 
 img[src$="khepri.png"] {
     content:url('https://i.imgur.com/rfhy9d9.png')!important;
     width:20px!important;
  
 }
  
-/* JULY MS */
+/* JULY MS 
 img[src$="shard.png"] {
     content:url('https://i.imgur.com/QkQxxir.png')!important;
     width:20px!important;
  
 }
  
-/* JULY AC */
+/* JULY AC 
 img[src$="axion.png"] {
     content:url('https://i.imgur.com/rfhy9d9.png')!important;
     width:20px!important;
  
 }
  
-/* AUG CB */
+/* AUG CB 
 img[src$="beetlecarrion.png"] {
     content:url('https://i.imgur.com/QkQxxir.png')!important;
     width:20px!important;
  
 }
  
-/* AUG DB */
+/* AUG DB 
 img[src$="bone.png"] {
     content:url('https://i.imgur.com/rfhy9d9.png')!important;
     width:20px!important;
  
 }
  
-/* SEPT JB */
+/* SEPT JB 
 img[src$="beetlejewel.png"] {
     content:url('https://i.imgur.com/QkQxxir.png')!important;
     width:20px!important;
  
 }
  
-/* SEPT ET */
+/* SEPT ET 
 img[src$="eldritch.png"] {
     content:url('https://i.imgur.com/rfhy9d9.png') !important;
     width:20px!important;
  
 }
  
-/* OCT BB */
+/* OCT BB 
 img[src$="beetleblood.png"] {
     content:url('https://i.imgur.com/QkQxxir.png')!important;
     width:20px!important;
  
 }
  
-/* OCT NF */
+/* OCT NF 
 img[src$="nephelinefeather.png"] {
     content:url('https://i.imgur.com/rfhy9d9.png')!important;
     width:20px!important;
  
 }
  
-/* OCT DS */
+/* OCT DS 
 img[src$="demonicscale.png"] {
     content:url('https://i.imgur.com/zeF9HuJ.png')!important;
     width:20px!important;
  
 }
  
-/* NOV */
+/* NOV 
 img[src$="scarabbeetle.png"] {
     content:url('https://i.imgur.com/rfhy9d9.png')!important;
     width:20px!important;
  
 }
  
-/* DEC */
+/* DEC 
 img[src$="stinkbug.png"] {
     content:url('https://i.imgur.com/rfhy9d9.png')!important;
     width:20px!important;
  
 }
+*/
