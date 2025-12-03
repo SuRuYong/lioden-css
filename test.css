@@ -7,5 +7,1067 @@ Please do NOT remove this credit, unless your coding becomes unrecognizable from
 
 /* FONT (From Google Fonts) */
 
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
+/* BACKGROUND */
+
+body {
+	background: url('https://i.postimg.cc/fR6Bq11S/4932d0e2dd05a122e8fa9d5f56aa6bcb.jpg') center center fixed;
+	background-size: cover;
+        height: 100%;
+        width: 100%;
+        background-repeat: no-repeat;
+	font-family: "Bona Nova SC", sans-serif;
+        color: #ffe5c5;
+}
+
+/* MAIN PANEL */
+
+/* RIGHT SIDE */
+.container.main {
+	background: rgba(1, 255, 255, 0.05);
+	border: 2px solid #132F40;
+	box-shadow: none;
+	border-radius: 0px
+}
+
+/* LEFT SIDE */
+.col-md-9 {
+	background: none;
+        border-right: none;
+}
+
+/* TOPBAR ("Welcome back, ___") */
+
+.topbar {
+	background: rgb(43,98,99);
+background: linear-gradient(0deg, rgba(43,98,99,0.8044467787114846) 0%, rgba(17,40,56,0.8688725490196079) 96%);
+	border: 2px solid #132F40;
+	border-top: none;
+	color: #D9919E;
+        font-family: "Pixelify Sans", sans-serif;
+text-shadow: 1px 2px 2px black;
+	border-radius: 10px;
+}
+.container.topbar .welcomeback a {
+    color: #F2D1CE !important;
+}
+ul.toplinks a { 
+color: #F2D1CE !important;
+}
+ul.toplinks a:hover { 
+color: #FFFFFF !important; }
+
+/* NAVBAR (Den/Crossroads/Etc.) */
+
+.navbar {
+	background: rgb(43,98,99);
+background: linear-gradient(0deg, rgba(43,98,99,0.8044467787114846) 0%, rgba(17,40,56,0.8688725490196079) 96%);
+	border-bottom: none;
+	color: #000000;
+        font-family: "Pixelify Sans", sans-serif;
+text-shadow: 1px 2px 2px black;
+	border-radius: 10px;
+        border: 2px solid #132F40;
+}
+
+/* NAVBAR BUTTON TEXT COLOR */
+
+.navbar li a {
+	color: #f3b5c0 !important
+        
+}
+
+/* NAVBAR BUTTON HOVER */
+
+.navbar li a:hover {
+	background: url('https://steamuserimages-a.akamaihd.net/ugc/1710788650508208814/340D866FBBD9E6C15AE2F2340C5626C8136DBEAC/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true') !important;
+background-size: cover!important;
+opacity: 60%;
+background-repeat: no-repeat !important;
+	border-bottom: none;
+	color: #FFF !important;
+	border-radius: 5px;
+        box-shadow: 0px 0px 6px 2px #0d6052;
+transition: all 0.7s ease;
+}
+
+/* BREADCRUMB (Home / Den) */
+
+.breadcrumb {
+	background: rgb(18,56,65);
+background: linear-gradient(0deg, rgba(18,56,65,1) 0%, rgba(10,35,40,1) 96%) !important;
+        border: 2px solid #0a2328;
+	border-radius: 10px
+}
+
+/* BREADCRUMB TEXT */
+
+.breadcrumb .active {
+	color: #f3b5c0
+}
+
+/* CSS CREDIT */
+
+.breadcrumb::after {
+        content: "Template by Katie (#106445) | Edited by #93596";
+        color: #f3b5c0;
+        position: absolute;
+font-size: 12px;
+opacity: 80%;
+        right: 14%; /* (This may need adjusting) */
+        z-index: 100
+    }
+
+@media only screen and (max-width: 1199px) and (min-width: 992px)  {
+        .breadcrumb::after {
+            right: 20%
+        }
+    }
+
+    @media only screen and (max-width: 991px) and (min-width: 768px)  {
+        .breadcrumb::after {
+            right: 20%
+        }
+    }
+
+    @media only screen and (max-width: 767px) {
+        .breadcrumb::after {
+            right: 22%
+        }
+    }
+
+/* BOOKMARK BUTTON */
+
+input.floatright {
+	background: rgb(43,98,99);
+background: linear-gradient(0deg, rgba(43,98,99,0.8044467787114846) 0%, rgba(17,40,56,0.8688725490196079) 96%)!important;
+        border: 2px solid #132F40 !important;
+	border-radius: 10px;
+	color: #7EA8A8 !important;    
+}
+input.floatright:hover { 
+background: rgb(43,98,99);
+background: linear-gradient(0deg, rgba(43,98,99,0.8044467787114846) 0%, rgba(17,40,56,0.8688725490196079) 96%)!important;
+        border: 2px solid #132F40 !important;
+	border-radius: 10px;
+	color: #18D9D9 !important; 
+        text-shadow: 1px 1px 2px #18D9D9 !important;
+ }
+
+/* SWITCH ACCOUNT BUTTON */
+
+button.button {
+	background: rgb(43,98,99);
+background: linear-gradient(0deg, rgba(43,98,99,0.8044467787114846) 0%, rgba(17,40,56,0.8688725490196079) 96%)!important;
+        border: 2px solid #132F40 !important;
+	border-radius: 10px;
+        color: #7EA8A8 !important; 
+}
+
+button.button:hover {
+	background: rgb(43,98,99);
+background: linear-gradient(0deg, rgba(43,98,99,0.8044467787114846) 0%, rgba(17,40,56,0.8688725490196079) 96%)!important;
+        border: 2px solid #132F40 !important;
+	border-radius: 10px;
+        color: #18D9D9 !important; 
+        text-shadow: 1px 1px 2px #18D9D9 !important;
+}
+
+/* ALERTS (ie. "Your lionesses have returned from hunting!") */
+
+.alert,
+.alert-warning,
+.alert-danger,
+.alert-success {
+	background: rgba(22, 53, 66, 0.75) !important;
+	border: solid 1px #ff5f5f ;
+	color: #ff5f5f;
+	border-radius: 10px !important;
+        box-shadow: 0px 0px 10px #ff5f5f !important;
+        margin-top: 10px;
+}
+
+/* BIGGEST HEADER ("___"'s DEN) */
+
+h1 {
+	color: #ffe5c5 !important;
+	font-size: 60px;
+	text-align: center;
+        font-family: "Bona Nova SC", serif;
+text-shadow: 1px 2px 2px #18403C;
+}
+
+
+/* MEDIUM HEADER */
+
+h2 {
+	color: #ffe5c5;
+	font-size: 24px;
+	text-align: center;
+text-shadow: 1px 2px 2px #18403C;
+}
+
+
+/* SMALL HEADER */
+
+h3 {
+	color: #ffe5c5 !important;
+	font-size: 14px !important;
+text-shadow: 1px 2px 2px #18403C;
+}
+
+/* RIGHT SIDE PANEL HEADER */
+
+.sidebar h3 {
+	color: #ffe5c5 !important;
+        font-size: 26px !important;
+        font-family: 'Bona Nova SC';
+}
+
+/* RIGHT SIDE PANELS */
+.panel {
+	background: rgba(22, 53, 66, 0.75) !important;
+	box-shadow: 1px 2px 1px #0f2a35 !important;
+	border: solid 2px #0f2a35 !important;
+	color: #ff90a4 !important;
+	border-radius: 10px
+}
+
+/* ENERGY BAR BACKGROUND */
+.progress {
+	background: rgb(43,98,99);
+background: rgb(72,91,115);
+	color: #000000 !important;
+	border-radius: 6px !important;
+        border: solid 2px #235458;
+}
+
+/* ENERGY BAR COLOR */
+.progress-bar {
+         background: rgb(10,96,115);
+background: linear-gradient(90deg, rgba(10,96,115,1) 0%, rgba(24,217,217,1) 100%);
+	color: #000000 !important;
+	border-radius: 6px !important;
+        
+    
+}
+
+/* ENERGY BAR TEXT */
+.progress div {
+	color: #FFFFFF !important;
+text-shadow: 1px 2px 2px #0c2a3c !important;
+}
+
+
+
+/* CHAT */
+
+.s-chat-message:nth-child(even) /* Even Numbered Messages */ {
+	background: rgba(22, 53, 66, 0.9) !important;
+        color: #ffe5c5 !important;
+	border: none !important
+}
+
+.s-chat-message:nth-child(odd) /* Odd Numbered Messages */ {
+	background: rgba(1, 1, 1, 0.2) !important;
+        color: #ffe5c5 !important;
+	border: none !important
+}
+
+.s-chat-message__pinned /* Pinned Message */ {
+	background: rgba(1, 1, 1, 0.2) !important;
+        color: #ffe5c5 !important;
+	border: none !important
+}
+
+.s-chat-message_timestamp /* Timestamps */ {
+	color: #ffe5c5 !important;
+}
+
+div#chatMessageContainer {
+	border: none !important;
+}
+
+button#label_currentChannel /* Channel Button ie. Main, Sales */ {
+	background: rgba(1, 1, 1, 0.5) !important;
+        color: #ffe5c5 !important;
+	border: none !important
+}
+
+/* LION INFO TABLE (Level, Stats, Territory Count, Etc.) */
+
+
+/* PANEL BACKGROUND COLOR */
+
+.table {
+	background: rgba(22, 53, 66, 0.75) !important;
+	box-shadow: 1px 2px 2px #0f2a35 !important;
+	border: solid 1px #0f2a35 !important;
+	color: #ff90a4 !important;
+	border-radius: 15px !important;
+	border-collapse: separate;
+}
+#about {
+    position: relative;
+    border-collapse: collapse;
+    border-radius: 15px;
+    overflow: hidden;
+     width: 100%;
+}
+
+/* table image background #93596 */
+
+#about::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 70%;
+    background-image:     url('https://64.media.tumblr.com/364b8a2cb768fb650a32bfbf9630612e/a4ee6018f377c225-c8/s1280x1920/7b413ed4cde79183b07b5e7f14a96673153cfacf.jpg') !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 0;
+}
+
+/* HEADERS COLOR (King Name + Title, "There are _ lions with mutations in _'s pride.") */
+
+.top,
+.bottom,
+th {
+	background: rgb(18,56,65);
+background: linear-gradient(0deg, rgba(18,56,65,1) 0%, rgba(10,35,40,1) 96%) !important;
+	color: #ffe5c5 !important;
+	border-radius: 15px !important;
+         text-shadow: 1px 1px 2px #F29B30; 
+
+      
+
+}
+
+/*Remove .top for full background in table, affects shown title so better to use custom title in that case, don't know how to fix that yet. #93596 */
+
+.top { z-index: 0;
+position: relative;
+border-radius: 5px !important;
+opacity: 90%
+}
+
+td.bottom a {
+        text-decoration: none !important;
+        z-index: 1;
+        position:relative;
+        text-align: center !important;
+}
+
+/* Color behind "Level, Stats, Branch, Territory" etc. */
+
+.inner-table .left {
+	background: rgba(19, 47, 64, 0.7) !important;
+        color: #ffe5c5;
+        text-shadow: 1px 3px 2px black !important;
+	border-radius: 5px !important;
+box-shadow: 1px 2px 1px #0f2a35 !important;
+}
+/* LION NAME COLOR */
+#about .xlarge.b .bigger {
+        color: #ffe5c5 !important;
+        z-index: 1;
+        position:relative;
+}
+
+
+
+/* Color behind the number of all of the things above */
+
+.inner-table .right {
+	background: rgb(10, 96, 115, 0.4);
+	border-radius: 5px !important;
+box-shadow: 1px 2px 1px #0f2a35 !important;
+color: #ffe5c5;
+ text-shadow: 1px 2px 3px #0c2a3c !important;
+}
+
+td.right {
+	border-radius: 15px !important;
+}
+
+/* IGNORE */
+.right_odd {
+	background: none !important
+}
+
+/* Affects the color behind "_ Unsorted", "_ Pregnant Lionesses", "View Pride Overview", and cave/mound names */
+
+.cave-grid,
+.mound-grid {
+	background: rgba(22, 53, 66, 0.75) !important;
+	box-shadow: 1px 2px 2px #0f2a35 !important;
+	border: solid 1px #0f2a35 !important;
+        border-radius:10px !important;
+}
+
+/* FEED ALL, PLAY ALL */
+
+.feature {
+	background: rgb(10, 96, 115, 0.4);
+	border-radius: 5px !important;
+        box-shadow: 1px 2px 1px #0f2a35 !important;
+        color: #ffe5c5;
+         text-shadow: 1px 2px 2px #0c2a3c !important;
+}
+
+/* "King Dynasty, Pride Dynasty, Achievements, Showcase" Panels */
+
+.feature,
+div.left {
+	background: rgb(43,98,99);
+background: linear-gradient(0deg, rgba(43,98,99,0.8044467787114846) 0%, rgba(17,40,56,0.8688725490196079) 96%);
+border-radius:10px;
+box-shadow: 0px 1px 1px black;
+
+}
+/* Codes made by Pandora #144118 and Kat .:Red Lion of Voltron:. #94329 
+Codes may be edited, used in commissions or for personal use
+Please do not remove credit
+*/
+ 
+/* KING DYNASTY */
+img[src$="ancestors.jpg"] {
+    content:url('https://i.imgur.com/thSieKE.gif')!important;
+    width:185px!important;
+ 
+}
+ 
+/* PRIDE DYNASTY */
+img[src$="ancestorsfem.png"] {
+    content:url('https://i.imgur.com/thSieKE.gif')!important;
+    width:185px!important;
+ 
+}
+ 
+/* ACHIEVMENTS */
+img[src$="achievements.jpg"] {
+    content:url('https://i.imgur.com/thSieKE.gif')!important;
+    width:185px!important;
+ 
+}
+ 
+/* SHOWCASE */
+img[src$="showcase/banner.png"] {
+    content:url('https://i.imgur.com/thSieKE.gif')!important;
+    width:185px!important;
+ 
+}
+
+/* Block of color behind "Territory Description, Player Name, Avatar URL" etc. */
+
+.table .left {
+	background: rgba(22, 53, 66, 0.9) !important;
+	box-shadow: 1px 2px 1px #0f2a35 !important;
+	border: solid 2px #0f2a35 !important;
+        border-radius: 10px;
+}
+
+/* Color behind the content of the elements listed above */
+
+input,
+select,
+textarea {
+	background: rgba(122, 153, 166, 0.3) !important;
+	box-shadow: 1px 2px 1px #0f2a35 !important;
+	border: solid 2px #0f2a35 !important;
+	border-radius: 10px !important;
+	color: #ffe5c5 !important;
+	box-shadow: none !important;
+	text-shadow: none !important;
+}
+
+/* ACCOUNT OPTIONS PANELS  (Friend Requests Toggles, etc.) */
+
+.item-header {
+	background: rgba(22, 53, 66, 0.9) !important;
+	box-shadow: 1px 2px 1px #0f2a35 !important;
+	border: solid 2px #0f2a35 !important;
+        border-radius: 10px;
+	color: #FFFFFF  !important;
+text-shadow: 1px 2px 2px #0c2a3c !important;
+}
+
+.item {
+	background: rgba(1, 1, 1, 0.2) !important;
+	border: none !important;
+	border-radius: 10px !important
+}
+
+/* ACCOUNT OPTIONS ON/OFF TOGGLE SWITCH */
+
+div.slider.round /* Background */ {
+	background: #FF !important
+}
+
+div.slider.round::before /* Circle Part */ {
+	background: #FFF !important
+}
+
+/* Copyright, Terms of Service, CoC, etc. */
+
+div.container.footer.center.white.visible-lg.visible-md.visible-sm, div.container.footer.center.white.visible-lg.visible-md.visible-sm a {
+        color: #ffe5c5 !important;
+        text-shadow: 1px 1px 1
+px #F29B30 !important;
+}
+
+/* LINK COLOR */
+
+a:link,
+a:visited {
+	color: #FFF !important;
+text-shadow: 1px 2px 2px #0c2a3c !important;
+}
+
+/* LINK HOVER COLOR */
+
+a:hover {
+	color: #D9919E !important;
+}
+
+
+/* BOX CONTAINER */
+
+.boxcontainer {
+	background: none;
+	height: auto;
+	padding: 0px;
+	justify-content: center;
+	display: flex;
+        position:relative;
+        flex-direction: column;
+        align-items: center;
+}
+
+/* BOTTOM BOXES (medium, small) for better alignment #93596 */
+.bottomboxes { 
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 60%;
+    flex-direction: row; }
+/* BOXES */
+
+.smallbox {
+	float: right;
+	background: rgb(43,98,99);
+background: linear-gradient(0deg, rgba(43,98,99,0.8044467787114846) 0%, rgba(17,40,56,0.8688725490196079) 96%);
+	color: #ffe5c5;
+	padding: 10px;
+	border: solid 1px #F2D1CE;
+    box-shadow: 0px 0px 10px 2px #0c2a3c;
+	border-radius: 5px;
+	margin: 5px;
+    transition: 3s;
+    overflow: auto;
+    box-sizing: border-box;
+    display: inline-block;
+	height: 150px;
+	width: 48%;
+}
+
+.mediumbox {
+	float: left;
+	background: rgb(43,98,99);
+background: linear-gradient(0deg, rgba(43,98,99,0.8044467787114846) 0%, rgba(17,40,56,0.8688725490196079) 96%);
+	color: #ffe5c5;
+	padding: 10px;
+	border: solid 1px #F2D1CE;
+    box-shadow: 0px 0px 10px 2px #0c2a3c;
+	border-radius: 5px;
+	margin: 5px;
+    transition: 3s;
+    overflow: auto;
+    box-sizing: border-box;
+    display: inline-block;
+	height: 250px;
+	width: 48%;
+}
+
+.largebox {
+	float: center;
+	background: rgb(43,98,99);
+background: linear-gradient(0deg, rgba(43,98,99,0.8044467787114846) 0%, rgba(17,40,56,0.8688725490196079) 96%);
+	color: #ffe5c5;
+	padding: 10px;
+	border: solid 1px #F2D1CE;
+        box-shadow: 0px 0px 10px 2px #0c2a3c;
+	border-radius: 5px;
+	margin: 5px;
+	height: 350px;
+	width: 60%;
+        transition: 3s;
+        overflow: auto;
+        box-sizing: border-box;
+        display: inline-block;
+}
+
+/* HOVER BOXES */
+
+.smallhoverbox {
+	float: right;
+	background: rgb(43,98,99);
+background: linear-gradient(0deg, rgba(43,98,99,0.8044467787114846) 0%, rgba(17,40,56,0.8688725490196079) 96%);
+	color: #ffe5c5;
+	padding: 10px;
+	border: solid 1px #F2D1CE;
+    box-shadow: 0px 0px 10px 2px #0c2a3c;
+	border-radius: 5px;
+	margin: 5px;
+    transition: 3s;
+    overflow: auto;
+    box-sizing: border-box;
+    display: inline-block;
+	height: 150px;
+	width: 48%;
+}
+
+.smallhoverbox:hover {
+	height: 250px;
+	width: 60%;
+}
+
+.mediumhoverbox {
+	float: left;
+	background: rgb(43,98,99);
+background: linear-gradient(0deg, rgba(43,98,99,0.8044467787114846) 0%, rgba(17,40,56,0.8688725490196079) 96%);
+	color: #ffe5c5;
+	padding: 10px;
+	border: solid 1px #F2D1CE;
+    box-shadow: 0px 0px 10px 2px #0c2a3c;
+	border-radius: 5px;
+	margin: 5px;
+    transition: 3s;
+    overflow: auto;
+    box-sizing: border-box;
+    display: inline-block;
+	height: 250px;
+	width: 48%;
+}
+
+.mediumhoverbox:hover {
+	height: 350px;
+	width: 60%;
+}
+
+.largehoverbox {
+	float: center;
+	background: rgb(43,98,99);
+background: linear-gradient(0deg, rgba(43,98,99,0.8044467787114846) 0%, rgba(17,40,56,0.8688725490196079) 96%);
+	color: #ffe5c5;
+	padding: 10px;
+	border: solid 1px #F2D1CE;
+    box-shadow: 0px 0px 10px 2px #0c2a3c;
+	border-radius: 5px;
+	margin: 5px;
+    transition: 3s;
+    overflow: auto;
+    box-sizing: border-box;
+	height: 350px;
+	width: 60%;
+}
+
+.largehoverbox:hover {
+	height: 500px;
+	width: 75%;
+        overflow: auto;
+}
+/* SCROLLBAR FIX FOR BOXES since overflow hates me #93596 */
+
+.largehoverbox::-webkit-scrollbar-track, .mediumhoverbox::-webkit-scrollbar-track, .smallhoverbox::-webkit-scrollbar-track, 
+.largebox::-webkit-scrollbar-track, .mediumbox::-webkit-scrollbar-track, .smallbox::-webkit-scrollbar-track {
+    background: #0c2a3c;
+    border-radius: 15px !important; 
+}
+
+.largehoverbox::-webkit-scrollbar-thumb, .mediumhoverbox::-webkit-scrollbar-thumb, .smallhoverbox::-webkit-scrollbar-thumb, 
+.largebox::-webkit-scrollbar-thumb, .mediumbox::-webkit-scrollbar-thumb, .smallbox::-webkit-scrollbar-thumb  {
+    background:  #0a6073;
+    border-radius: 15px !important; 
+}
+
+/* IMG SIZE FIX for boxes */
+.largehoverbox img, .largebox img, .mediumbox img, .mediumhoverbox:hover img, .smallbox img, .smallhoverbox img { 
+    max-width: 90%;
+    max-height: 90%;
+}
+/* SIDE BOX IMAGE #93596 */
+
+.side { 
+    position:absolute;
+    top: 235px;
+    left: 134px;
+    transition: top 3s ease, left 2s ease;
+}
+.largehoverbox:hover + .side {
+position:absolute;
+    top: 385px;
+    left: 729px;
+    transition: top 3s ease, left 2s ease;
+ }
+ @media only screen and (max-width: 1199px) and (min-width: 992px)  {
+    .side {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 991px) and (min-width: 768px)  {
+    .side {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .side {
+        display: none;
+    }
+}
+/* SCROLL BAR */
+
+/* WIDTH */
+
+::-webkit-scrollbar {
+	width: 10px;
+border-radius: 0px !important;
+}
+
+/* BACKGROUND */
+
+::-webkit-scrollbar-track {
+	background: #0c2a3c;
+        border: solid 1px #021b29;
+border-radius: 0px !important;
+}
+
+
+/* "THUMB" */
+
+::-webkit-scrollbar-thumb {
+	background: #0a6073;
+	border-radius: 5px;
+}
+
+
+
+/* LION AND USER AVATAR OPACITY */
+
+div#lion_image {
+	opacity: 90%;
+}
+
+div#lion_image:hover {
+    box-shadow: 0px 0px 3px 1px #F2D1CE;
+    opacity: 100%;
+    transition: 0.3 ease;
+  }
+
+table#player img {
+	opacity: 80%;
+}
+table#player img:hover { 
+    opacity: 100%;
+}
+
+
+/* CIRCULAR LION AND USER AVATAR */
+
+div#lion_image {
+      border-radius: 50% !important;
+      overflow: hidden;
+      -webkit-transform: scaleX(-1);
+	margin-top: 15px; /* May need adjusting */
+	margin-left: 12px /* May need adjusting */
+}
+
+
+table#player img {
+	border-radius: 50% !important;
+	overflow: hidden;
+}
+.rcredits {
+font-size: 11px;
+opacity: 50%;
+transition: 1s ease;
+ }
+
+.rcredits:hover {
+font-size: 15px;
+transition: 1s ease;
+opacity: 100%;
+ }
+
+/* LIODEN LOGO REPLACER */
+
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
+	content: url('https://i.postimg.cc/Sxb46Yq7/hakuskipskid.gif')
+}
+
+/* CAVE / MOUND IMAGES HOK'S #41458 CODE */
+/*Unsorted Lions*/
+img[src$="unsortedlionsbanner.png"] {
+content: url('https://i.imgur.com/HucZbTT.jpeg')!important;
+opacity: 70%;
+transition: opacity 0.3s ease;
+
+}
+img[src$="unsortedlionsbanner.png"]:hover {
+opacity: 100%;
+
+}
+
+/*Nesting*/
+img[src$="nestingbanner.png"] {
+content: url('https://i.imgur.com/SAYOVnC.jpeg')!important;
+opacity: 70%;
+transition: opacity 0.3s ease;
+}
+img[src$="nestingbanner.png"]:hover {
+opacity: 100%;
+}
+
+
+/*Overview*/
+img[src$="overviewbanner.png"] {
+content: url('https://i.imgur.com/po0pe96.jpeg')!important;
+opacity: 70%;
+transition: opacity 0.3s ease;
+}
+img[src$="overviewbanner.png"]:hover { 
+opacity: 100%;}
+
+
+/* Other caves */
+img[src$="cavedefault.jpg"] {
+content: url("https://i.imgur.com/f2odelM.jpeg") !important;
+opacity: 70%;
+transition: opacity 0.3s ease;
+}
+img[src$="cavedefault.jpg"]:hover {
+  opacity: 100%;
+}
+
+.mound-grid img /* Mound(s) */ {
+	background: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/2030bdf4-b755-4f56-a737-c9366c5fa537/d8o9uyf-0c0dfff6-e503-4cc0-a346-a709704bb517.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzIwMzBiZGY0LWI3NTUtNGY1Ni1hNzM3LWM5MzY2YzVmYTUzN1wvZDhvOXV5Zi0wYzBkZmZmNi1lNTAzLTRjYzAtYTM0Ni1hNzA5NzA0YmI1MTcuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.MSB1wigQhQhIplyB8BqGTfje_W5bQykyz1MmkFkTHm8") center;
+background-repeat: no-repeat;
+	width: 0;
+	height: 0;
+	padding-top: 80px;
+	padding-right: 130px
+}
+
+/* MAKES BOXES/DESCRIPTION SHOW ON MOBILE */
+
+@media only screen and (max-width: 767px) {
+        .container.main .hidden-xs {
+            display: block !important;
+        }
+}
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+	display: block !important;
+}
+
+@media only screen and (min-width: 1200px) {
+		div.quote {
+			width: 790px;
+		} }
+/* CURSOR */
+/* Start */ * {cursor: url(https://64.media.tumblr.com/ad7a4357d27ac19e36a279cacf08f161/tumblr_inline_mrh9npvGc01qz4rgp.png), auto !important }
+/* cursor by thetremblingofmyhand*/
+
+/* Codes made by Pandora #144118  
+Codes may be edited, used in commissions or for personal use
+Please do not remove credit
+*/
+ 
+/* Custom featured lion cave background */
+
+.lionImage>div>img:first-child {
+    content: url('https://img.screencaps.us/200/1-spirited-awaybr/full/spirited-awaybr-disneyscreencaps.com-2242.jpg');
+    max-width: 640px !important;
+    height: 500px !important;
+    opacity: 80%;
+    }
+/* MEMBER OFFLINE AND ONLINE */
+ 
+.member-offline, .member-online {
+    background: rgba(207,207,207,0);
+    content:url('https://i.imgur.com/zlhSRB9.gif')!important;
+     width:25px!important;
+     height:25px;
+ 
+}
+/* REMOVE WHITE LINE */
+hr {
+display: none; }
+
+/* TIME */
+ 
+/* TIME DAY */
+img[src$="day.png"] {
+    content:url('https://i.imgur.com/7Kl1yjG.gif')!important;
+    width:20px!important;
+ 
+}
+ 
+/* TIME NIGHT */
+img[src$="night.png"] {
+    content:url('https://i.imgur.com/cdldmBx.gif')!important;
+    width:20px!important;
+}
+ 
+/* SEASON */
+ 
+/* DRY SEASON */
+img[src$="dry.png"] {
+    content:url('https://i.imgur.com/Q9tyPDj.png')!important;
+    width:20px!important;
+ 
+}
+/* GB/SB ICONS */
+ 
+/* GOLD BEETLE */
+img[src$="gold.png"] {
+    content:url('https://i.postimg.cc/ht9zScF8/d9vd2cn-fcbba210-a375-4320-92b4-f7a03b95e359.gif')!important;
+    width:20px!important;
+ 
+}
+ 
+/* SILVER BEETLE */
+img[src$="silver.png"] {
+    content:url('https://i.postimg.cc/wBgtMZHC/silver.gif')!important;
+    width:20px!important;
+ 
+}
+ 
+/* EVENT CURRENCY */
+ 
+/* JAN */
+img[src$="dermestid.png"] {
+    content:url('https://i.imgur.com/rfhy9d9.png')!important;
+    width:20px!important;
+ 
+}
+ 
+/* FEB */
+img[src$="heartshell.png"] {
+    content:url('https://i.imgur.com/rfhy9d9.png')!important;
+    width:20px!important;
+ 
+}
+ 
+/* MARCH */
+img[src$="beetlerhino.png"] {
+    content:url('https://i.imgur.com/rfhy9d9.png')!important;
+    width:20px!important;
+ 
+}
+ 
+/* APRIL */
+img[src$="easteregg.png"] {
+    content:url('https://i.imgur.com/rfhy9d9.png')!important;
+    width:20px!important;
+ 
+}
+ 
+ 
+/* MAY */
+img[src$="beetlemant.png"] {
+    content:url('https://i.imgur.com/rfhy9d9.png')!important;
+    width:20px!important;
+ 
+}
+ 
+/* JUNE */
+img[src$="khepri.png"] {
+    content:url('https://i.imgur.com/rfhy9d9.png')!important;
+    width:20px!important;
+ 
+}
+ 
+/* JULY MS */
+img[src$="shard.png"] {
+    content:url('https://i.imgur.com/QkQxxir.png')!important;
+    width:20px!important;
+ 
+}
+ 
+/* JULY AC */
+img[src$="axion.png"] {
+    content:url('https://i.imgur.com/rfhy9d9.png')!important;
+    width:20px!important;
+ 
+}
+ 
+/* AUG CB */
+img[src$="beetlecarrion.png"] {
+    content:url('https://i.imgur.com/QkQxxir.png')!important;
+    width:20px!important;
+ 
+}
+ 
+/* AUG DB */
+img[src$="bone.png"] {
+    content:url('https://i.imgur.com/rfhy9d9.png')!important;
+    width:20px!important;
+ 
+}
+ 
+/* SEPT JB */
+img[src$="beetlejewel.png"] {
+    content:url('https://i.imgur.com/QkQxxir.png')!important;
+    width:20px!important;
+ 
+}
+ 
+/* SEPT ET */
+img[src$="eldritch.png"] {
+    content:url('https://i.imgur.com/rfhy9d9.png') !important;
+    width:20px!important;
+ 
+}
+ 
+/* OCT BB */
+img[src$="beetleblood.png"] {
+    content:url('https://i.imgur.com/QkQxxir.png')!important;
+    width:20px!important;
+ 
+}
+ 
+/* OCT NF */
+img[src$="nephelinefeather.png"] {
+    content:url('https://i.imgur.com/rfhy9d9.png')!important;
+    width:20px!important;
+ 
+}
+ 
+/* OCT DS */
+img[src$="demonicscale.png"] {
+    content:url('https://i.imgur.com/zeF9HuJ.png')!important;
+    width:20px!important;
+ 
+}
+ 
+/* NOV */
+img[src$="scarabbeetle.png"] {
+    content:url('https://i.imgur.com/rfhy9d9.png')!important;
+    width:20px!important;
+ 
+}
+ 
+/* DEC */
+img[src$="stinkbug.png"] {
+    content:url('https://i.imgur.com/rfhy9d9.png')!important;
+    width:20px!important;
+ 
+}
