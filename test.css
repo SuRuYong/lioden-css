@@ -867,19 +867,16 @@ position:absolute;
     pointer-events: none;
 }
 
-/* Убираем любые бордеры на ховере */
-.lion-image-block[data-image-type="headshot"],
-.lion-image-block[data-image-type="headshot"]::after,
-.lion-image-block[data-image-type="headshot"] * {
-    border: none !important;
-    outline: none !important;
+.lion-image-block[data-image-type="headshot"] > img {
+    border-radius: 50%;
+    display: block;
+    border: none;          /* убираем границу */
+    outline: none;         /* убираем обводку при фокусе/ховере */
 }
 
-/* Убираем случайные рамки браузера при наведении */
-.lion-image-block[data-image-type="headshot"]:hover,
-.lion-image-block[data-image-type="headshot"]:hover::after {
-    border: none !important;
-    outline: none !important;
+.lion-image-block[data-image-type="headshot"] > img:hover {
+    border: none;
+    outline: none;
 }
 
 table#player img {
