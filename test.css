@@ -838,29 +838,33 @@ position:absolute;
 	top: 10px;
 }*/
 
-div#lion_image {
-	position: relative;
-      border-radius: 50%;
-      overflow: hidden;
-      -webkit-transform: scaleX(-1);
-	margin-top: 15px; 
-	margin-left: 12px;
-} 
+/* Внешний контейнер — рамка выходит наружу */
+.lion-image-block[data-image-type="headshot"] {
+    position: relative;
+    overflow: visible !important;
+}
 
-#lion_image:before {
-content:"";
-position:absolute;
-	inset: 0;
-	top: -8px;
-	left: -8px;
-	right: -8px;
-	bottom: -8px;
+/* Внутренний круглый аватар (все слои вместе) */
+.lion-image-block[data-image-type="headshot"] > img {
+    border-radius: 50%;
+    display: block;
+}
 
-	background-image: url("https://github.com/ghostsofsteel/updatedpurplespace/blob/main/ezgif.com-resize%20(1).png?raw=true");
-	background-size: cover;
-	background-repeat: no-repeat;
-	z-index: 10;
-	pointer-events: none;
+/* Рамка поверх круга */
+.lion-image-block[data-image-type="headshot"]::after {
+    content: "";
+    position: absolute;
+    top: -12px;
+    left: -12px;
+    right: -12px;
+    bottom: -12px;
+    
+    background-image: url("https://github.com/ghostsofsteel/updatedpurplespace/blob/main/ezgif.com-resize%20(1).png?raw=true");
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    z-index: 9999;
+    pointer-events: none;
 }
 
 table#player img {
