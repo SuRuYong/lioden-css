@@ -823,13 +823,13 @@ table#player img:hover {
 
 /* CIRCULAR LION AND USER AVATAR */
 
-div#lion_image {
+/* div#lion_image {
       border-radius: 50% !important;
       overflow: hidden;
       -webkit-transform: scaleX(-1);
-	margin-top: 15px; /* May need adjusting */
-	margin-left: 12px /* May need adjusting */
-}
+	margin-top: 15px; 
+	margin-left: 12px 
+} */
 
 #lion_image:after {
 content:url("https://github.com/ghostsofsteel/updatedpurplespace/blob/main/ezgif.com-resize%20(1).png?raw=true");
