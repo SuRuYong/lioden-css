@@ -817,7 +817,7 @@ img[src$="unsortedlionsbanner.png"] {
 content: url('https://i.imgur.com/hpmeNES.jpeg')!important;
 width: 260px;
 	height: 60px;
-	object-fit: contain;
+	object-fit: cover;
 	
 opacity: 60%;
 transition: opacity 0.3s ease;
