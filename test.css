@@ -867,6 +867,21 @@ position:absolute;
     pointer-events: none;
 }
 
+/* Убираем любые бордеры на ховере */
+.lion-image-block[data-image-type="headshot"],
+.lion-image-block[data-image-type="headshot"]::after,
+.lion-image-block[data-image-type="headshot"] * {
+    border: none !important;
+    outline: none !important;
+}
+
+/* Убираем случайные рамки браузера при наведении */
+.lion-image-block[data-image-type="headshot"]:hover,
+.lion-image-block[data-image-type="headshot"]:hover::after {
+    border: none !important;
+    outline: none !important;
+}
+
 table#player img {
 	border-radius: 80% !important;
 	overflow: hidden;
