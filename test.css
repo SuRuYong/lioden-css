@@ -844,13 +844,16 @@ position:absolute;
     overflow: visible !important;
 }
 
-/* Внутренний круглый аватар (все слои вместе) */
-.lion-image-block[data-image-type="headshot"] > img {
+/* Все изображения внутри блока — круглые, без бордеров и теней */
+.lion-image-block[data-image-type="headshot"] img {
     border-radius: 50%;
     display: block;
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
 }
 
-/* Рамка поверх круга */
+/* Рамка поверх аватара */
 .lion-image-block[data-image-type="headshot"]::after {
     content: "";
     position: absolute;
@@ -858,8 +861,8 @@ position:absolute;
     left: -12px;
     right: -12px;
     bottom: -12px;
-    
-    background-image: url("https://raw.githubusercontent.com/SuRuYong/lioden-css/refs/heads/main/6b555763a9ff0815cff7d45480f03ff4d1ca4ab3.png?raw=true");
+
+    background-image: url("https://github.com/ghostsofsteel/updatedpurplespace/blob/main/ezgif.com-resize%20(1).png?raw=true");
     background-size: contain;
     background-repeat: no-repeat;
 
@@ -867,12 +870,11 @@ position:absolute;
     pointer-events: none;
 }
 
-.lion-image-block[data-image-type="headshot"] img {
-    border: none !important;    /* убираем все границы */
-    outline: none !important;   /* убираем обводку при фокусе/hover */
-    box-shadow: none !important; /* на всякий случай */
-    border-radius: 50%;         /* сохраняем круглую форму */
-    display: block;
+/* На всякий случай — убрать любые бордеры и обводку при hover на блоке */
+.lion-image-block[data-image-type="headshot"]:hover img {
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
 }
 
 table#player img {
