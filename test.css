@@ -842,20 +842,18 @@ div#lion_image {
       border-radius: 50% !important;
       overflow: hidden;
 	position: relative;
-	width: 120px;
-	height: 120px;
       -webkit-transform: scaleX(-1);
 	margin-top: 15px; 
 	margin-left: 12px;
 } 
 
 #lion_image:after {
-content:url("https://github.com/ghostsofsteel/updatedpurplespace/blob/main/ezgif.com-resize%20(1).png?raw=true");
+content:"";
 position:absolute;
-	left: 0px;
-	top: 0px;
-	width: 100%;
-	height: 100%;
+	inset: 0;
+	background-image: url("https://github.com/ghostsofsteel/updatedpurplespace/blob/main/ezgif.com-resize%20(1).png?raw=true");
+	background-size: cover;
+	background-repeat: no-repeat;
 	z-index: 5;
 	pointer-events: none;
 }
