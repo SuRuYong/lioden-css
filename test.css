@@ -830,6 +830,10 @@ opacity: 100%;
 /*Nesting*/
 img[src$="nestingbanner.png"] {
 content: url('https://i.imgur.com/7AQQbqv.jpeg')!important;
+	width: 260px;
+	height: 60px;
+	object-fit: cover;
+	
 opacity: 60%;
 transition: opacity 0.3s ease;
 }
@@ -841,6 +845,10 @@ opacity: 100%;
 /*Overview*/
 img[src$="overviewbanner.png"] {
 content: url('https://i.imgur.com/ud3pALW.jpeg')!important;
+	width: 260px;
+	height: 60px;
+	object-fit: cover;
+	
 opacity: 60%;
 transition: opacity 0.3s ease;
 }
@@ -850,7 +858,11 @@ opacity: 100%;}
 
 /* Other caves */
 img[src$="cavedefault.jpg"] {
-content: url("https://i.imgur.com/SVJ8S1P.jpeg") !important;
+content: url("https://i.imgur.com/VHphUOK.jpeg") !important;
+	width: 240px;
+	height: 120px;
+	object-fit: cover;
+	
 opacity: 60%;
 transition: opacity 0.3s ease;
 }
@@ -858,13 +870,27 @@ img[src$="cavedefault.jpg"]:hover {
   opacity: 100%;
 }
 
+/* Неиспользованные кейвы */
+img[src$="caveunused.jpg"] {
+content: url("https://i.imgur.com/K2DYI9f.jpeg") !important;
+	width: 240px;
+	height: 120px;
+	object-fit: cover;
+	
+opacity: 60%;
+transition: opacity 0.3s ease;
+}
+img[src$="caveunused.jpg"]:hover {
+  opacity: 100%;
+}
+
 .mound-grid img /* Mound(s) */ {
 	background: url("https://i.imgur.com/w1cwMx4.jpeg") center;
 background-repeat: no-repeat;
-	width: 0;
-	height: 0;
-	padding-top: 80px;
-	padding-right: 130px
+	width: 180px;
+	height: 80px;
+	/* padding-top: 80px;
+	padding-right: 130px */
 }
 
 /* MAKES BOXES/DESCRIPTION SHOW ON MOBILE */
