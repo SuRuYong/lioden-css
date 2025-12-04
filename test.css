@@ -26,7 +26,7 @@ body {
 /* RIGHT SIDE */
 .container.main {
 	background: rgba(1, 255, 255, 0.05);
-	border: 2px solid #483D8B;
+	border: 2px solid ##272530;
 	box-shadow: none;
 	border-radius: 0px
 }
@@ -40,9 +40,9 @@ body {
 /* TOPBAR ("Welcome back, ___") */
 
 .topbar {
-	background: rgb(43,98,99);
-background: linear-gradient(0deg, rgba(43,98,99,0.8044467787114846) 0%, rgba(17,40,56,0.8688725490196079) 96%);
-	border: 2px solid #483D8B;
+	background: rgb(65,58,83);
+background: linear-gradient(0deg, rgba(90, 75, 102, 0.82) 0%, rgba(30, 6, 46, 0.81) 100%);
+	border: 2px solid #302d40;
 	border-top: none;
 	color: #bfb9f0;
         font-family: "Comic Neue", cursive;
@@ -61,8 +61,8 @@ color: #FFFFFF !important; }
 /* NAVBAR (Den/Crossroads/Etc.) */
 
 .navbar {
-	background: rgb(43,98,99);
-background: linear-gradient(0deg, rgba(43,98,99,0.8044467787114846) 0%, rgba(17,40,56,0.8688725490196079) 96%);
+	background: rgb(65,58,83);
+background: linear-gradient(0deg, rgba(90, 75, 102, 0.82) 0%, rgba(30, 6, 46, 0.81) 100%);
 	border-bottom: none;
 	color: #000000;
         font-family: "Comic Neue", cursive;
@@ -78,7 +78,7 @@ text-shadow: 1px 2px 2px black;
         
 }
 
-/* NAVBAR BUTTON HOVER */
+/* NAVBAR BUTTON HOVER 
 
 .navbar li a:hover {
 	background: url('https://steamuserimages-a.akamaihd.net/ugc/1710788650508208814/340D866FBBD9E6C15AE2F2340C5626C8136DBEAC/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true') !important;
@@ -90,13 +90,13 @@ background-repeat: no-repeat !important;
 	border-radius: 5px;
         box-shadow: 0px 0px 6px 2px #0d6052;
 transition: all 0.7s ease;
-}
+} */
 
 /* BREADCRUMB (Home / Den) */
 
 .breadcrumb {
-	background: rgb(18,56,65);
-background: linear-gradient(0deg, rgba(18,56,65,1) 0%, rgba(10,35,40,1) 96%) !important;
+	background: rgb(27,18,64);
+background: linear-gradient(0deg, rgba(34, 24, 61, 1) 0%, rgba(10, 10, 40, 0.81) 100%) !important;
         border: 2px solid #0a2328;
 	border-radius: 10px
 }
@@ -140,15 +140,15 @@ opacity: 80%;
 /* BOOKMARK BUTTON */
 
 input.floatright {
-	background: rgb(43,98,99);
-background: linear-gradient(0deg, rgba(43,98,99,0.8044467787114846) 0%, rgba(17,40,56,0.8688725490196079) 96%)!important;
+	background: rgb(65,58,83);
+background: linear-gradient(0deg, rgba(90, 75, 102, 0.82) 0%, rgba(30, 6, 46, 0.81) 100%)!important;
         border: 2px solid #483D8B !important;
 	border-radius: 10px;
 	color: #7EA8A8 !important;    
 }
 input.floatright:hover { 
-background: rgb(43,98,99);
-background: linear-gradient(0deg, rgba(43,98,99,0.8044467787114846) 0%, rgba(17,40,56,0.8688725490196079) 96%)!important;
+background: rgb(65,58,83);
+background: linear-gradient(0deg, rgba(90, 75, 102, 0.82) 0%, rgba(30, 6, 46, 0.81) 100%)!important;
         border: 2px solid #483D8B !important;
 	border-radius: 10px;
 	color: #18D9D9 !important; 
@@ -158,16 +158,16 @@ background: linear-gradient(0deg, rgba(43,98,99,0.8044467787114846) 0%, rgba(17,
 /* SWITCH ACCOUNT BUTTON */
 
 button.button {
-	background: rgb(43,98,99);
-background: linear-gradient(0deg, rgba(43,98,99,0.8044467787114846) 0%, rgba(17,40,56,0.8688725490196079) 96%)!important;
+	background: rgb(65,58,83);
+background: linear-gradient(0deg, rgba(90, 75, 102, 0.82) 0%, rgba(30, 6, 46, 0.81) 100%)!important;
         border: 2px solid #483D8B !important;
 	border-radius: 10px;
         color: #7EA8A8 !important; 
 }
 
 button.button:hover {
-	background: rgb(43,98,99);
-background: linear-gradient(0deg, rgba(43,98,99,0.8044467787114846) 0%, rgba(17,40,56,0.8688725490196079) 96%)!important;
+	background: rgb(65,58,83);
+background: linear-gradient(0deg, rgba(90, 75, 102, 0.82) 0%, rgba(30, 6, 46, 0.81) 100%)!important;
         border: 2px solid #483D8B !important;
 	border-radius: 10px;
         color: #18D9D9 !important; 
@@ -180,67 +180,67 @@ background: linear-gradient(0deg, rgba(43,98,99,0.8044467787114846) 0%, rgba(17,
 .alert-warning,
 .alert-danger,
 .alert-success {
-	background: rgba(22, 53, 66, 0.75) !important;
-	border: solid 1px #ff5f5f ;
-	color: #ff5f5f;
+	background: rgba(24, 22, 66, 0.6) !important;
+	border: solid 1px #edca72 ;
+	color: #edca72;
 	border-radius: 10px !important;
-        box-shadow: 0px 0px 10px #ff5f5f !important;
+        box-shadow: 0px 0px 10px #edca72 !important;
         margin-top: 10px;
 }
 
 /* BIGGEST HEADER ("___"'s DEN) */
 
 h1 {
-	color: #ffe5c5 !important;
+	color: #b8b3c9 !important;
 	font-size: 60px;
 	text-align: center;
         font-family: "Quintessential", serif;
-text-shadow: 1px 2px 2px #18403C;
+text-shadow: 1px 2px 2px #362d45;
 }
 
 
 /* MEDIUM HEADER */
 
 h2 {
-	color: #ffe5c5;
+	color: #b8b3c9;
 	font-size: 24px;
 	text-align: center;
-text-shadow: 1px 2px 2px #18403C;
+text-shadow: 1px 2px 2px #362d45;
 }
 
 
 /* SMALL HEADER */
 
 h3 {
-	color: #ffe5c5 !important;
+	color: #b8b3c9 !important;
 	font-size: 14px !important;
-text-shadow: 1px 2px 2px #18403C;
+text-shadow: 1px 2px 2px #362d45;
 }
 
 /* RIGHT SIDE PANEL HEADER */
 
 .sidebar h3 {
-	color: #ffe5c5 !important;
+	color: #b8b3c9 !important;
         font-size: 26px !important;
         font-family: "Quintessential";
 }
 
 /* RIGHT SIDE PANELS */
 .panel {
-	background: rgba(22, 53, 66, 0.75) !important;
-	box-shadow: 1px 2px 1px #0f2a35 !important;
-	border: solid 2px #0f2a35 !important;
-	color: #ff90a4 !important;
+	background: rgba(24, 22, 66, 0.6) !important;
+	box-shadow: 1px 2px 1px #181636 !important;
+	border: solid 2px #181636 !important;
+	color: #c8bfd6 !important;
 	border-radius: 10px
 }
 
 /* ENERGY BAR BACKGROUND */
 .progress {
-	background: rgb(43,98,99);
-background: rgb(72,91,115);
+	background: rgb(65,58,83);
+background: rgb(72,74,115);
 	color: #000000 !important;
 	border-radius: 6px !important;
-        border: solid 2px #235458;
+        border: solid 2px #302d40;
 }
 
 /* ENERGY BAR COLOR */
@@ -256,7 +256,7 @@ background: linear-gradient(90deg,rgba(83, 80, 97, 0.97) 0%, rgba(100, 96, 143, 
 /* ENERGY BAR TEXT */
 .progress div {
 	color: #FFFFFF !important;
-text-shadow: 1px 2px 2px #0c2a3c !important;
+text-shadow: 1px 2px 2px #6a6782 !important;
 }
 
 
@@ -264,25 +264,25 @@ text-shadow: 1px 2px 2px #0c2a3c !important;
 /* CHAT */
 
 .s-chat-message:nth-child(even) /* Even Numbered Messages */ {
-	background: rgba(22, 53, 66, 0.9) !important;
-        color: #ffe5c5 !important;
+	background: rgba(22, 30, 66, 0.9) !important;
+        color: #b8b3c9 !important;
 	border: none !important
 }
 
 .s-chat-message:nth-child(odd) /* Odd Numbered Messages */ {
 	background: rgba(1, 1, 1, 0.2) !important;
-        color: #ffe5c5 !important;
+        color: #b8b3c9 !important;
 	border: none !important
 }
 
 .s-chat-message__pinned /* Pinned Message */ {
 	background: rgba(1, 1, 1, 0.2) !important;
-        color: #ffe5c5 !important;
+        color: #b8b3c9 !important;
 	border: none !important
 }
 
 .s-chat-message_timestamp /* Timestamps */ {
-	color: #ffe5c5 !important;
+	color: #b8b3c9 !important;
 }
 
 div#chatMessageContainer {
@@ -291,7 +291,7 @@ div#chatMessageContainer {
 
 button#label_currentChannel /* Channel Button ie. Main, Sales */ {
 	background: rgba(1, 1, 1, 0.5) !important;
-        color: #ffe5c5 !important;
+        color: #b8b3c9 !important;
 	border: none !important
 }
 
@@ -301,10 +301,10 @@ button#label_currentChannel /* Channel Button ie. Main, Sales */ {
 /* PANEL BACKGROUND COLOR */
 
 .table {
-	background: rgba(22, 53, 66, 0.75) !important;
-	box-shadow: 1px 2px 2px #0f2a35 !important;
-	border: solid 1px #0f2a35 !important;
-	color: #ff90a4 !important;
+	background: rgba(24, 22, 66, 0.6) !important;
+	box-shadow: 1px 2px 2px #181636 !important;
+	border: solid 1px #181636 !important;
+	color: #c8bfd6 !important;
 	border-radius: 15px !important;
 	border-collapse: separate;
 }
@@ -325,7 +325,7 @@ button#label_currentChannel /* Channel Button ie. Main, Sales */ {
     left: 0;
     width: 100%;
     height: 100%;
-    opacity: 70%;
+    opacity: 60%;
     background-image:     url('https://wallpapershome.com/images/pages/pic_h/26273.jpg') !important;
     background-size: cover;
     background-repeat: no-repeat;
@@ -338,9 +338,9 @@ button#label_currentChannel /* Channel Button ie. Main, Sales */ {
 .top,
 .bottom,
 th {
-	background: rgb(18,56,65);
-background: linear-gradient(0deg, rgba(18,56,65,1) 0%, rgba(10,35,40,1) 96%) !important;
-	color: #ffe5c5 !important;
+	background: rgb(27,18,64);
+background: linear-gradient(0deg, rgba(34, 24, 61, 1) 0%, rgba(10, 10, 40, 0.81) 100%) !important;
+	color: #b8b3c9 !important;
 	border-radius: 15px !important;
          text-shadow: 1px 1px 2px #F29B30; 
 
@@ -367,14 +367,14 @@ td.bottom a {
 
 .inner-table .left {
 	background: rgba(19, 47, 64, 0.7) !important;
-        color: #ffe5c5;
+        color: #b8b3c9;
         text-shadow: 1px 3px 2px black !important;
 	border-radius: 5px !important;
-box-shadow: 1px 2px 1px #0f2a35 !important;
+box-shadow: 1px 2px 1px #181636 !important;
 }
 /* LION NAME COLOR */
 #about .xlarge.b .bigger {
-        color: #ffe5c5 !important;
+        color: #b8b3c9 !important;
         z-index: 1;
         position:relative;
 }
@@ -386,9 +386,9 @@ box-shadow: 1px 2px 1px #0f2a35 !important;
 .inner-table .right {
 	background: rgb(10, 96, 115, 0.4);
 	border-radius: 5px !important;
-box-shadow: 1px 2px 1px #0f2a35 !important;
-color: #ffe5c5;
- text-shadow: 1px 2px 3px #0c2a3c !important;
+box-shadow: 1px 2px 1px #181636 !important;
+color: #b8b3c9;
+ text-shadow: 1px 2px 3px #6a6782 !important;
 }
 
 td.right {
@@ -404,9 +404,9 @@ td.right {
 
 .cave-grid,
 .mound-grid {
-	background: rgba(22, 53, 66, 0.75) !important;
-	box-shadow: 1px 2px 2px #0f2a35 !important;
-	border: solid 1px #0f2a35 !important;
+	background: rgba(24, 22, 66, 0.6) !important;
+	box-shadow: 1px 2px 2px #181636 !important;
+	border: solid 1px #181636 !important;
         border-radius:10px !important;
 }
 
@@ -415,17 +415,17 @@ td.right {
 .feature {
 	background: rgb(10, 96, 115, 0.4);
 	border-radius: 5px !important;
-        box-shadow: 1px 2px 1px #0f2a35 !important;
-        color: #ffe5c5;
-         text-shadow: 1px 2px 2px #0c2a3c !important;
+        box-shadow: 1px 2px 1px #181636 !important;
+        color: #b8b3c9;
+         text-shadow: 1px 2px 2px #6a6782 !important;
 }
 
 /* "King Dynasty, Pride Dynasty, Achievements, Showcase" Panels */
 
 .feature,
 div.left {
-	background: rgb(43,98,99);
-background: linear-gradient(0deg, rgba(43,98,99,0.8044467787114846) 0%, rgba(17,40,56,0.8688725490196079) 96%);
+	background: rgb(65,58,83);
+background: linear-gradient(0deg, rgba(90, 75, 102, 0.82) 0%, rgba(30, 6, 46, 0.81) 100%);
 border-radius:10px;
 box-shadow: 0px 1px 1px black;
 
@@ -466,9 +466,9 @@ img[src$="showcase/banner.png"] {
 /* Block of color behind "Territory Description, Player Name, Avatar URL" etc. */
 
 .table .left {
-	background: rgba(22, 53, 66, 0.9) !important;
-	box-shadow: 1px 2px 1px #0f2a35 !important;
-	border: solid 2px #0f2a35 !important;
+	background: rgba(22, 30, 66, 0.9) !important;
+	box-shadow: 1px 2px 1px #181636 !important;
+	border: solid 2px #181636 !important;
         border-radius: 10px;
 }
 
@@ -478,10 +478,10 @@ input,
 select,
 textarea {
 	background: rgba(122, 153, 166, 0.3) !important;
-	box-shadow: 1px 2px 1px #0f2a35 !important;
-	border: solid 2px #0f2a35 !important;
+	box-shadow: 1px 2px 1px #181636 !important;
+	border: solid 2px #181636 !important;
 	border-radius: 10px !important;
-	color: #ffe5c5 !important;
+	color: #b8b3c9 !important;
 	box-shadow: none !important;
 	text-shadow: none !important;
 }
@@ -489,12 +489,12 @@ textarea {
 /* ACCOUNT OPTIONS PANELS  (Friend Requests Toggles, etc.) */
 
 .item-header {
-	background: rgba(22, 53, 66, 0.9) !important;
-	box-shadow: 1px 2px 1px #0f2a35 !important;
-	border: solid 2px #0f2a35 !important;
+	background: rgba(22, 30, 66, 0.9) !important;
+	box-shadow: 1px 2px 1px #181636 !important;
+	border: solid 2px #181636 !important;
         border-radius: 10px;
 	color: #FFFFFF  !important;
-text-shadow: 1px 2px 2px #0c2a3c !important;
+text-shadow: 1px 2px 2px #6a6782 !important;
 }
 
 .item {
@@ -516,7 +516,7 @@ div.slider.round::before /* Circle Part */ {
 /* Copyright, Terms of Service, CoC, etc. */
 
 div.container.footer.center.white.visible-lg.visible-md.visible-sm, div.container.footer.center.white.visible-lg.visible-md.visible-sm a {
-        color: #ffe5c5 !important;
+        color: #b8b3c9 !important;
         text-shadow: 1px 1px 1
 px #F29B30 !important;
 }
@@ -526,7 +526,7 @@ px #F29B30 !important;
 a:link,
 a:visited {
 	color: #FFF !important;
-text-shadow: 1px 2px 2px #0c2a3c !important;
+text-shadow: 1px 2px 2px #6a6782 !important;
 }
 
 /* LINK HOVER COLOR */
@@ -560,12 +560,12 @@ a:hover {
 
 .smallbox {
 	float: right;
-	background: rgb(43,98,99);
-background: linear-gradient(0deg, rgba(43,98,99,0.8044467787114846) 0%, rgba(17,40,56,0.8688725490196079) 96%);
-	color: #ffe5c5;
+	background: rgb(65,58,83);
+background: linear-gradient(0deg, rgba(90, 75, 102, 0.82) 0%, rgba(30, 6, 46, 0.81) 100%);
+	color: #b8b3c9;
 	padding: 10px;
 	border: solid 1px #8f86cf;
-    box-shadow: 0px 0px 10px 2px #0c2a3c;
+    box-shadow: 0px 0px 10px 2px #6a6782;
 	border-radius: 5px;
 	margin: 5px;
     transition: 3s;
@@ -578,12 +578,12 @@ background: linear-gradient(0deg, rgba(43,98,99,0.8044467787114846) 0%, rgba(17,
 
 .mediumbox {
 	float: left;
-	background: rgb(43,98,99);
-background: linear-gradient(0deg, rgba(43,98,99,0.8044467787114846) 0%, rgba(17,40,56,0.8688725490196079) 96%);
-	color: #ffe5c5;
+	background: rgb(65,58,83);
+background: linear-gradient(0deg, rgba(90, 75, 102, 0.82) 0%, rgba(30, 6, 46, 0.81) 100%);
+	color: #b8b3c9;
 	padding: 10px;
 	border: solid 1px #8f86cf;
-    box-shadow: 0px 0px 10px 2px #0c2a3c;
+    box-shadow: 0px 0px 10px 2px #6a6782;
 	border-radius: 5px;
 	margin: 5px;
     transition: 3s;
@@ -596,12 +596,12 @@ background: linear-gradient(0deg, rgba(43,98,99,0.8044467787114846) 0%, rgba(17,
 
 .largebox {
 	float: center;
-	background: rgb(43,98,99);
-background: linear-gradient(0deg, rgba(43,98,99,0.8044467787114846) 0%, rgba(17,40,56,0.8688725490196079) 96%);
-	color: #ffe5c5;
+	background: rgb(65,58,83);
+background: linear-gradient(0deg, rgba(90, 75, 102, 0.82) 0%, rgba(30, 6, 46, 0.81) 100%);
+	color: #b8b3c9;
 	padding: 10px;
 	border: solid 1px #8f86cf;
-        box-shadow: 0px 0px 10px 2px #0c2a3c;
+        box-shadow: 0px 0px 10px 2px #6a6782;
 	border-radius: 5px;
 	margin: 5px;
 	height: 350px;
@@ -616,12 +616,12 @@ background: linear-gradient(0deg, rgba(43,98,99,0.8044467787114846) 0%, rgba(17,
 
 .smallhoverbox {
 	float: right;
-	background: rgb(43,98,99);
-background: linear-gradient(0deg, rgba(43,98,99,0.8044467787114846) 0%, rgba(17,40,56,0.8688725490196079) 96%);
-	color: #ffe5c5;
+	background: rgb(65,58,83);
+background: linear-gradient(0deg, rgba(90, 75, 102, 0.82) 0%, rgba(30, 6, 46, 0.81) 100%);
+	color: #b8b3c9;
 	padding: 10px;
 	border: solid 1px #8f86cf;
-    box-shadow: 0px 0px 10px 2px #0c2a3c;
+    box-shadow: 0px 0px 10px 2px #6a6782;
 	border-radius: 5px;
 	margin: 5px;
     transition: 3s;
@@ -639,12 +639,12 @@ background: linear-gradient(0deg, rgba(43,98,99,0.8044467787114846) 0%, rgba(17,
 
 .mediumhoverbox {
 	float: left;
-	background: rgb(43,98,99);
-background: linear-gradient(0deg, rgba(43,98,99,0.8044467787114846) 0%, rgba(17,40,56,0.8688725490196079) 96%);
-	color: #ffe5c5;
+	background: rgb(65,58,83);
+background: linear-gradient(0deg, rgba(90, 75, 102, 0.82) 0%, rgba(30, 6, 46, 0.81) 100%);
+	color: #b8b3c9;
 	padding: 10px;
 	border: solid 1px #8f86cf;
-    box-shadow: 0px 0px 10px 2px #0c2a3c;
+    box-shadow: 0px 0px 10px 2px #6a6782;
 	border-radius: 5px;
 	margin: 5px;
     transition: 3s;
@@ -662,12 +662,12 @@ background: linear-gradient(0deg, rgba(43,98,99,0.8044467787114846) 0%, rgba(17,
 
 .largehoverbox {
 	float: center;
-	background: rgb(43,98,99);
-background: linear-gradient(0deg, rgba(43,98,99,0.8044467787114846) 0%, rgba(17,40,56,0.8688725490196079) 96%);
-	color: #ffe5c5;
+	background: rgb(65,58,83);
+background: linear-gradient(0deg, rgba(90, 75, 102, 0.82) 0%, rgba(30, 6, 46, 0.81) 100%);
+	color: #b8b3c9;
 	padding: 10px;
 	border: solid 1px #8f86cf;
-    box-shadow: 0px 0px 10px 2px #0c2a3c;
+    box-shadow: 0px 0px 10px 2px #6a6782;
 	border-radius: 5px;
 	margin: 5px;
     transition: 3s;
@@ -686,7 +686,7 @@ background: linear-gradient(0deg, rgba(43,98,99,0.8044467787114846) 0%, rgba(17,
 
 .largehoverbox::-webkit-scrollbar-track, .mediumhoverbox::-webkit-scrollbar-track, .smallhoverbox::-webkit-scrollbar-track, 
 .largebox::-webkit-scrollbar-track, .mediumbox::-webkit-scrollbar-track, .smallbox::-webkit-scrollbar-track {
-    background: #0c2a3c;
+    background: #6a6782;
     border-radius: 15px !important; 
 }
 
@@ -744,7 +744,7 @@ border-radius: 0px !important;
 /* BACKGROUND */
 
 ::-webkit-scrollbar-track {
-	background: #0c2a3c;
+	background: #6a6782;
         border: solid 1px #021b29;
 border-radius: 0px !important;
 }
