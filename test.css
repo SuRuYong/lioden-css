@@ -1016,6 +1016,20 @@ transition: opacity 0.3s ease;
   opacity: 100%;
 }*/
 
+/* Активные жуки */
+img[src$="beetlemound.png"] {
+content: url("https://i.imgur.com/h5o3sJr.jpeg") !important;
+	width: 180px;
+	height: 80px;
+	object-fit: cover;
+	
+opacity: 60%;
+transition: opacity 0.3s ease;
+}
+img[src$="beetlemound.png"]:hover {
+  opacity: 100%;
+}
+
 /* MAKES BOXES/DESCRIPTION SHOW ON MOBILE */
 
 @media only screen and (max-width: 767px) {
