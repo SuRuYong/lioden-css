@@ -237,7 +237,7 @@ text-shadow: 1px 2px 2px #362d45;
 }
 
 .panel-body.small {
-	opacity: 60%;
+	opacity: 80%;
 }
 
 /* ENERGY BAR BACKGROUND */
@@ -1087,6 +1087,10 @@ Please do not remove credit
 /* REMOVE WHITE LINE */
 hr {
 display: none; }
+
+table#clans.table {
+	opacity: 80%;
+}
 
 /* TIME */
  
