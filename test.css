@@ -824,10 +824,12 @@ table#player img:hover {
 table.inner-table + tr td.right img[src^="https://static.lioden.com/images/tags/0/0/"] {
     opacity: 0.8;
     border-radius: 50%;
-    width: 140px;   /* уменьшаем на 10px */
-    height: 140px;  /* уменьшаем на 10px */
+    max-width: 140px;   /* уменьшаем на 10px */
+    max-height: 140px;  /* уменьшаем на 10px */
+    width: auto;        /* сохраняем пропорции */
+    height: auto;       /* сохраняем пропорции */
     display: block;
-    object-fit: cover; /* сохраняет пропорции */
+    margin: 5px auto;   /* центрируем внутри ячейки */
 }
 
 table.inner-table + tr td.right img[src^="https://static.lioden.com/images/tags/0/0/"]:hover {
