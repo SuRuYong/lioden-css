@@ -840,62 +840,42 @@ td.right > img[src^="https://static.lioden.com/images/tags/0/0/"]:hover {
 
 /* CIRCULAR LION AND USER AVATAR */
 
-/* Внешний контейнер — делаем круг и обрезку */
+/* Внешний контейнер — не режем содержимое */
 .lion-image-block[data-image-type="headshot"] {
     position: relative;
-    display: inline-block;       /* чтобы размер шел по содержимому */
-    border-radius: 50%;          /* круг */
-    overflow: hidden;            /* ОЧЕНЬ важно — обрезает всё внутри по кругу */
-    -webkit-clip-path: circle(50% at 50% 50%);
-    clip-path: circle(50% at 50% 50%);
-
-    /* при необходимости задать явный размер (раскомментируй и поправь) */
-    /* width: 150px;
-       height: 150px; */
+    display: inline-block;
+    overflow: visible !important; /* очень важно */
+    border-radius: 50%; /* для совместимости, чисто визуально */
 }
 
-/* Не трогаем абсолютные координаты/inline-стили у <img> — слои остаются на месте.
-   Но на всякий случай сделаем их "незаметнее" при наведении и сохраним вертикальное выравнивание */
+/* Не трогаем слои льва */
 .lion-image-block[data-image-type="headshot"] img {
-    border: 0;               /* убираем стандартные рамки */
+    border: 0;
     outline: 0;
     box-shadow: none;
     vertical-align: middle;
-    /* НЕ задаём border-radius для отдельных img — это ломает композицию */
+    /* не задаём border-radius отдельным img */
 }
 
-/* Рамка поверх круга — теперь задаём её внутри (чтобы не обрезалась родителем) */
+/* Рамка поверх всех слоёв */
 .lion-image-block[data-image-type="headshot"]::after {
     content: "";
     position: absolute;
-    inset: 0;                      /* заполнить область контейнера */
-    margin: 0;
-    pointer-events: none;
-    z-index: 9999;
+    top: -12px;
+    left: -12px;
+    right: -12px;
+    bottom: -12px;
 
-    /* делаем фон рамки чуть больше круга с помощью background-size + transform */
     background-image: url("https://raw.githubusercontent.com/SuRuYong/lioden-css/refs/heads/main/6b555763a9ff0815cff7d45480f03ff4d1ca4ab3.png?raw=true");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 120% 120%;    /* увеличиваем, чтобы рамка "выглядела" наружу */
+    background-size: 120% 120%;
 
-    /* если хочется сильнее эффект "выходит наружу", можно увеличить scale,
-       но это уменьшит видимую часть рамки, если она выходит за круг */
-    transform: scale(1);           /* можно ставить 1.05 / 1.1 если нужно */
-}
-
-/* Дополнительно: если image-layer используют pointer-events для hover, и JS всё равно добавляет бордеры,
-   можно скрыть их визуально перекрытием полупрозрачной маской при hover (опционально) */
-.lion-image-block[data-image-type="headshot"]::before{
-    content: "";
-    position: absolute;
-    inset: 0;
-    border-radius: 50%;
     pointer-events: none;
-    z-index: 9998;
-    /* прозрачная маска, если нужно приглушить побочные бордеры: */
-    background: transparent;
+    z-index: 999999; /* очень высокий z-index, чтобы рамка была наверху */
 }
+
+/* Можно убрать ::before — он больше не нужен */
 
 table#player img {
 	border-radius: 100% !important;
