@@ -812,15 +812,35 @@ div#lion_image:hover {
     transition: 0.3 ease;
   }
 
-table#player img {
+/* table#player img {
 	opacity: 80%;
-	height: 140px;
-	width: 140px;
 }
+
 table#player img:hover { 
     opacity: 100%;
-	height: 140px;
-	width: 140px;
+} */
+
+table#player img {
+  opacity: 0.8;
+  border-radius: 50%; /* скругление */
+  display: block;
+  width: 140px; /* 150px минус 10 */
+  height: 140px; /* 150px минус 10 */
+  object-fit: cover; /* сохраняет пропорции, не растягивая */
+}
+
+table#player img:hover {  
+  opacity: 1;
+}
+
+.img-wrapper {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 50%; /* скругление контейнера */
 }
 
 
