@@ -74,23 +74,22 @@ text-shadow: 1px 2px 2px black;
 
 /* NAVBAR BUTTON TEXT COLOR */
 
+/* Плавный переход для всех ссылок */
 .navbar li a {
-	color: #ada6bd !important;
-        
+    color: #ada6bd !important;
+    transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1); /* spring effect */
+    display: inline-block; /* важно для transform */
 }
 
 /* NAVBAR BUTTON HOVER */
 
+/* При наведении */
 .navbar li a:hover {
-	background: rgb(65,58,83) !important;
-background-repeat: no-repeat !important;
-	border-bottom: none;
-	color: #FFF !important;
-	border-radius: 5px;
-        box-shadow: 0px 0px 6px 2px #756d8c;
-transition: all 0.3s ease;
-} 
-
+    background: none !important;   /* убираем фон */
+    color: inherit !important;      /* оставляем цвет */
+    box-shadow: none !important;    /* убираем тень */
+    transform: scale(1.15);         /* увеличиваем текст на 15% */
+}
 /* BREADCRUMB (Home / Den) */
 
 .breadcrumb {
