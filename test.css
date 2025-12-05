@@ -223,6 +223,7 @@ text-shadow: 1px 2px 2px #362d45;
         font-size: 26px !important;
         font-family: "Almendra", serif;
 	text-align: center;
+	text-shadow: #b8b3c9 1px 0px 8px;
 }
 
 /* RIGHT SIDE PANELS */
@@ -571,7 +572,7 @@ a:visited {
 	color: #cac6cf !important;
 text-shadow: 1px 2px 2px #6a6782 !important;
 	border-bottom: 0px solid #cac6cf !important;
-	transition: 0.3s !important;
+	transition: 0.5s !important;
 }
 
 /* LINK HOVER COLOR */
