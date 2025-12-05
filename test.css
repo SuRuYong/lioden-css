@@ -820,17 +820,18 @@ table#player img:hover {
     opacity: 100%;
 } */
 
-table#player img {
-  opacity: 0.8;
-  border-radius: 50%; /* скругление */
-  width: calc(100% - 10px); /* уменьшаем на 10px */
-  height: auto; /* сохраняем пропорции */
-  display: block;
-  margin: 5px auto; /* центрирование по вертикали и горизонтали */
+/* только картинка тега игрока */
+table.inner-table + tr td.right img[src^="https://static.lioden.com/images/tags/0/0/"] {
+    opacity: 0.8;
+    border-radius: 50%;
+    width: 140px;   /* уменьшаем на 10px */
+    height: 140px;  /* уменьшаем на 10px */
+    display: block;
+    object-fit: cover; /* сохраняет пропорции */
 }
 
-table#player img:hover {  
-  opacity: 1;
+table.inner-table + tr td.right img[src^="https://static.lioden.com/images/tags/0/0/"]:hover {
+    opacity: 1;
 }
 
 
