@@ -812,28 +812,35 @@ div#lion_image:hover {
     transition: 0.3 ease;
   }
 
+/* Стили для правой ячейки с картинкой тега игрока */
 td.right {
-    position: relative;
+    position: relative; /* чтобы внутренний блок можно было позиционировать */
 }
 
-td.right > img[src^="https://static.lioden.com/images/tags/0/0/"] {
+/* Обертка вокруг картинки игрока через CSS */
+td.right img[src^="https://static.lioden.com/images/tags/0/0/"] {
     display: block;
     margin: auto;
+    width: 150px;    /* размер картинки */
+    height: 150px;
+    position: relative; 
+    z-index: 1;      /* чтобы рамка была поверх картинки */
 }
 
-td.right > img[src^="https://static.lioden.com/images/tags/0/0/"]::after {
+/* Рамка поверх картинки с абсолютным позиционированием */
+td.right img[src^="https://static.lioden.com/images/tags/0/0/"]::after {
     content: "";
     position: absolute;
-    top: 50%; 
+    top: 50%;
     left: 50%;
-    width: 164px;  /* ширина картинки + 12*2 */
-    height: 164px; /* высота картинки + 12*2 */
+    width: 174px;    /* картинка + 12px с каждой стороны */
+    height: 174px;
     transform: translate(-50%, -50%);
     background-image: url("https://raw.githubusercontent.com/SuRuYong/lioden-css/refs/heads/main/6b555763a9ff0815cff7d45480f03ff4d1ca4ab3.png?raw=true");
     background-size: contain;
     background-repeat: no-repeat;
     pointer-events: none;
-    z-index: 9999;
+    z-index: 9999;   /* поверх картинки */
 }
 
 
