@@ -236,6 +236,10 @@ text-shadow: 1px 2px 2px #362d45;
 	border-radius: 5px
 }
 
+.panel-body.small {
+	opacity: 60%;
+}
+
 /* ENERGY BAR BACKGROUND */
 .progress {
 	background: rgb(65,58,83);
