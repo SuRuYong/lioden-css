@@ -571,7 +571,7 @@ px #978cb8 !important;
 a:link,
 a:visited {
 	color: #cac6cf !important;
-text-shadow: 1px 2px 2px #6a6782 !important;
+text-shadow: #b8b3c9 1px 0px 8px !important;
 	border-bottom: 0px solid #cac6cf !important;
 	transition: 0.5s !important;
 }
@@ -1002,20 +1002,6 @@ img[src$="beetleunsorted.png"]:hover {
   opacity: 100%;
 }
 
-/* Пустые жуки */
-img[src$="addbeetlemound.jpg"] {
-content: url("https://i.imgur.com/hpmeNES.jpeg") !important;
-	width: 240px;
-	height: 120px;
-	object-fit: cover;
-	
-opacity: 60%;
-/*transition: opacity 0.3s ease;*/
-}
-/*img[src$="addbeetlemound.png"]:hover {
-  opacity: 100%;
-}*/
-
 /* Активные жуки */
 img[src$="beetlemound.png"] {
 content: url("https://i.imgur.com/h5o3sJr.jpeg") !important;
@@ -1029,6 +1015,21 @@ transition: opacity 0.3s ease;
 img[src$="beetlemound.png"]:hover {
   opacity: 100%;
 }
+
+
+/* Пустые жуки */
+img[src$="addbeetlemound.jpg"] {
+content: url("https://i.imgur.com/hpmeNES.jpeg") !important;
+	width: 240px;
+	height: 120px;
+	object-fit: cover;
+	
+opacity: 60%;
+/*transition: opacity 0.3s ease;*/
+}
+/*img[src$="addbeetlemound.png"]:hover {
+  opacity: 100%;
+}*/
 
 /* MAKES BOXES/DESCRIPTION SHOW ON MOBILE */
 
