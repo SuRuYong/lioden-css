@@ -851,6 +851,7 @@ position:absolute;
     border: none !important;
     outline: none !important;
     box-shadow: none !important;
+    background: transparent; /* на всякий случай */
 }
 
 /* Рамка поверх аватара */
@@ -862,7 +863,7 @@ position:absolute;
     right: -12px;
     bottom: -12px;
 
-    background-image: url("https://github.com/ghostsofsteel/updatedpurplespace/blob/main/ezgif.com-resize%20(1).png?raw=true");
+    background-image: url("https://raw.githubusercontent.com/SuRuYong/lioden-css/refs/heads/main/6b555763a9ff0815cff7d45480f03ff4d1ca4ab3.png?raw=true");
     background-size: contain;
     background-repeat: no-repeat;
 
@@ -870,8 +871,8 @@ position:absolute;
     pointer-events: none;
 }
 
-/* На всякий случай — убрать любые бордеры и обводку при hover на блоке */
-.lion-image-block[data-image-type="headshot"]:hover img {
+/* Убираем любые hover-бордеры у изображений */
+.lion-image-block[data-image-type="headshot"] img:hover {
     border: none !important;
     outline: none !important;
     box-shadow: none !important;
