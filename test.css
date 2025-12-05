@@ -840,30 +840,31 @@ td.right > img[src^="https://static.lioden.com/images/tags/0/0/"]:hover {
 
 /* CIRCULAR LION AND USER AVATAR */
 
-/* Контейнер — НЕ режет содержимое, НЕ создаёт stacking context */
+/* Контейнер — ничего не режет, ничего не ломает */
 .lion-image-block[data-image-type="headshot"] {
     position: relative;
     display: inline-block;
-    overflow: visible !important; /* важно */
+    overflow: visible !important;
 }
 
-/* Мягкая круглая маска — БЕЗ clip-path */
-.lion-image-block[data-image-type="headshot"] img {
-    border: 0;
-    outline: 0;
-    box-shadow: none;
-    vertical-align: middle;
+/* Маска круга — отдельный слой, НЕ влияет на <img> */
+.lion-image-block[data-image-type="headshot"]::before {
+    content: "";
+    position: absolute;
+    inset: 0;
 
-    /* создаём круг через маску */
-    -webkit-mask-image: radial-gradient(circle at center, black 70%, transparent 71%);
-    mask-image: radial-gradient(circle at center, black 70%, transparent 71%);
+    /* круглая маска */
+    border-radius: 50%;
+    background: black;
 
-    /* чтобы маска не сдвигала изображения */
-    -webkit-mask-size: 100% 100%;
-    mask-size: 100% 100%;
+    /* превращаем в «обрезающий слой» */
+    mix-blend-mode: destination-in;
+
+    pointer-events: none;
+    z-index: 9998;
 }
 
-/* Рамка — всегда поверх */
+/* Рамка поверх всего */
 .lion-image-block[data-image-type="headshot"]::after {
     content: "";
     position: absolute;
@@ -871,13 +872,13 @@ td.right > img[src^="https://static.lioden.com/images/tags/0/0/"]:hover {
     left: -12px;
     right: -12px;
     bottom: -12px;
-    pointer-events: none;
 
     background-image: url("https://raw.githubusercontent.com/SuRuYong/lioden-css/refs/heads/main/6b555763a9ff0815cff7d45480f03ff4d1ca4ab3.png?raw=true");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
 
+    pointer-events: none;
     z-index: 999999;
 }
 
