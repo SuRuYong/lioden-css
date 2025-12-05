@@ -844,14 +844,12 @@ position:absolute;
     overflow: visible !important;
 }
 
-/* Все изображения внутри блока — круглые, без бордеров и теней */
+/* Все изображения внутри блока — круглые, без бордеров/эффектов */
 .lion-image-block[data-image-type="headshot"] img {
+    all: unset;                /* сброс всех стандартных стилей, включая hover-бордер */
     border-radius: 50%;
     display: block;
-    border: none !important;
-    outline: none !important;
-    box-shadow: none !important;
-    background: transparent; /* на всякий случай */
+    position: relative;        /* чтобы ::after рамка точно работала */
 }
 
 /* Рамка поверх аватара */
@@ -869,13 +867,6 @@ position:absolute;
 
     z-index: 9999;
     pointer-events: none;
-}
-
-/* Убираем любые hover-бордеры у изображений */
-.lion-image-block[data-image-type="headshot"] img:hover {
-    border: none !important;
-    outline: none !important;
-    box-shadow: none !important;
 }
 
 table#player img {
