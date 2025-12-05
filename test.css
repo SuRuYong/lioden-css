@@ -822,6 +822,10 @@ td.right > img[src^="https://static.lioden.com/images/tags/0/0/"] {
     height: auto;              /* сохраняем пропорции */
     display: block;
     margin: 5px auto;          /* центрируем по горизонтали и вертикали */
+
+	background-image: url("https://raw.githubusercontent.com/SuRuYong/lioden-css/refs/heads/main/6b555763a9ff0815cff7d45480f03ff4d1ca4ab3.png?raw=true");
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 td.right > img[src^="https://static.lioden.com/images/tags/0/0/"]:hover {
