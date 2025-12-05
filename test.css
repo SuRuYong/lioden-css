@@ -1067,16 +1067,18 @@ img[src$="dry.png"] {
 /* GB/SB ICONS */
  
 /* GOLD BEETLE */
-/* img[src$="gold.png"] {
-    content:url('https://i.postimg.cc/ht9zScF8/d9vd2cn-fcbba210-a375-4320-92b4-f7a03b95e359.gif')!important;
+img[src$="gold.png"] {
+    /*content:url('https://i.postimg.cc/ht9zScF8/d9vd2cn-fcbba210-a375-4320-92b4-f7a03b95e359.gif')!important;*/
     width:20px!important;
+	opacity: 80%;
  
-} */
+} 
  
 /* SILVER BEETLE */
-/* img[src$="silver.png"] {
-    content:url('https://i.postimg.cc/wBgtMZHC/silver.gif')!important;
+ img[src$="silver.png"] {
+    /*content:url('https://i.postimg.cc/wBgtMZHC/silver.gif')!important;*/
     width:20px!important;
+	 opacity: 80%;
  
 }
  
