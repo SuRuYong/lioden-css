@@ -413,11 +413,10 @@ td.right {
 /* FEED ALL, PLAY ALL */
 
 .feature {
-	/*background: rgba(80, 68, 114, 0.4);*/
 	background: #c0bdd5 !important;
 	border-radius: 5px !important;
         box-shadow: 1px 2px 1px #1b1930 !important;
-        /*color: #b8b3c9;*/
+        border: #9994b9;
          text-shadow: 1px 2px 2px #6a6782 !important;
 }
 
