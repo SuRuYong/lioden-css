@@ -812,18 +812,10 @@ div#lion_image:hover {
     transition: 0.3 ease;
   }
 
-/* table#player img {
-	opacity: 80%;
-}
-
-table#player img:hover { 
-    opacity: 100%;
-} */
-
 /* Только картинка тега игрока в правой ячейке */
 td.right > img[src^="https://static.lioden.com/images/tags/0/0/"] {
     opacity: 0.8;
-    border-radius: 90%;       /* скругление */
+    border-radius: 100%;       /* скругление */
     max-width: 100px;          /* на 10px меньше контейнера */
     max-height: 100px;         /* на 10px меньше контейнера */
     width: auto;               /* сохраняем пропорции */
@@ -869,7 +861,7 @@ td.right > img[src^="https://static.lioden.com/images/tags/0/0/"]:hover {
 }
 
 table#player img {
-	border-radius: 80% !important;
+	border-radius: 100% !important;
 	overflow: hidden;
 }
 .rcredits {
