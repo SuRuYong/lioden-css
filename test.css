@@ -804,17 +804,16 @@ border-radius: 0px !important;
 /* LION AND USER AVATAR OPACITY */
 
 div#lion_image {
-	opacity: 60%;
+	opacity: 80%;
 }
 
 div#lion_image:hover {
-   /* box-shadow: 0px 0px 3px 1px #9d99ba;*/
     opacity: 100%;
     transition: 0.3 ease;
   }
 
 table#player img {
-	opacity: 70%;
+	opacity: 80%;
 }
 table#player img:hover { 
     opacity: 100%;
@@ -822,21 +821,6 @@ table#player img:hover {
 
 
 /* CIRCULAR LION AND USER AVATAR */
-
-/*div#lion_image {
-      border-radius: 50% !important;
-      overflow: hidden;
-      -webkit-transform: scaleX(-1);
-	margin-top: 15px; 
-	margin-left: 12px 
-} 
-
-#lion_image:after {
-content:url("https://github.com/ghostsofsteel/updatedpurplespace/blob/main/ezgif.com-resize%20(1).png?raw=true");
-position:absolute;
-	left: -6px;
-	top: 10px;
-}*/
 
 /* Внешний контейнер — рамка выходит наружу */
 .lion-image-block[data-image-type="headshot"] {
@@ -859,7 +843,7 @@ position:absolute;
     right: -12px;
     bottom: -12px;
     
-    background-image: url("https://raw.githubusercontent.com/SuRuYong/lioden-css/refs/heads/main/c6a479fae8979bc9c1a02378e488e3ce06b52cb1.png?raw=true");
+    background-image: url("https://raw.githubusercontent.com/SuRuYong/lioden-css/refs/heads/main/6b555763a9ff0815cff7d45480f03ff4d1ca4ab3.png?raw=true");
     background-size: contain;
     background-repeat: no-repeat;
 
