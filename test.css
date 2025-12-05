@@ -172,6 +172,16 @@ button.button:hover {
         margin-top: 10px;
 }
 
+#fraProfileContent a {
+	transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1); /* spring effect */
+    display: inline-block; /* важно для transform */
+}
+
+#fraProfileContent a:hover {
+	transform: scale(1.15);         /* увеличиваем текст на 15% */
+}
+	
+
 /* BIGGEST HEADER ("___"'s DEN) */
 
 h1 {
@@ -562,8 +572,7 @@ a:visited {
 	color: #cac6cf !important;
 text-shadow: #b8b3c9 1px 0px 8px !important;
 	border-bottom: 0px solid #cac6cf !important;
-	transition: transform 0.6s cubic-bezier(0.34, 1.56, 0.64, 1); /* spring effect */
-    display: inline-block; /* важно для transform */
+	transition: 0.5s !important;
 }
 
 a.external-link {
@@ -579,7 +588,6 @@ a.external-link:hover {
 
 a:hover {
 	color: #aaa3c9 !important;
-	transform: scale(1.15);         /* увеличиваем текст на 15% */
 }
 
 
