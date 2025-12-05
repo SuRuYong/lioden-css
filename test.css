@@ -19,6 +19,7 @@ body {
         background-repeat: no-repeat;
 	font-family: "Comic Neue", cursive;
         color: #E6E6FA;
+	  cursor: url("https://cur.cursors-4u.net/nature/nat-6/nat598.cur") 16 16, auto;
 }
 
 /* MAIN PANEL */
@@ -244,7 +245,7 @@ background: rgb(72,74,115);
 /* ENERGY BAR COLOR */
 .progress-bar {
          background: #535061;
-background: linear-gradient(90deg,rgba(83, 80, 97, 0.97) 0%, rgba(100, 96, 143, 1) 100%);
+background: linear-gradient(90deg,rgba(83, 80, 97, 0.8) 0%, rgba(164, 157, 194, 0.8) 100%);
 	color: #000000 !important;
 	border-radius: 5px !important;
         
@@ -253,8 +254,8 @@ background: linear-gradient(90deg,rgba(83, 80, 97, 0.97) 0%, rgba(100, 96, 143, 
 
 /* ENERGY BAR TEXT */
 .progress div {
-	color: #FFFFFF !important;
-text-shadow: 1px 2px 2px #6a6782 !important;
+	color: #E6E6FA !important;
+text-shadow: 1px 2px 2px #cecbeb !important;
 }
 
 
@@ -574,6 +575,7 @@ text-shadow: 1px 2px 2px #6a6782 !important;
 
 a:hover {
 	color: #aaa3c9 !important;
+	cursor: url("https://cur.cursors-4u.net/nature/nat-6/nat597.cur") 16 16, pointer;
 }
 
 
@@ -999,7 +1001,7 @@ transition: opacity 0.3s ease;
 			width: 790px;
 		} }
 /* Курсор */
-/* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/nature/nat-6/nat598.cur), auto !important;} /* End https://www.cursors-4u.com */
+/* Start https://www.cursors-4u.com  * {cursor: url(https://cur.cursors-4u.net/nature/nat-6/nat598.cur), auto !important;} /* End https://www.cursors-4u.com */
 
 /* Codes made by Pandora #144118  
 Codes may be edited, used in commissions or for personal use
