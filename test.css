@@ -575,7 +575,7 @@ text-shadow: 1px 2px 2px #6a6782 !important;
 
 a:hover {
 	color: #aaa3c9 !important;
-	cursor: url("https://cur.cursors-4u.net/nature/nat-6/nat597.cur") 16 16, pointer;
+	cursor: url("https://cur.cursors-4u.net/nature/nat-6/nat597.cur") 16 16, pointer !important;
 }
 
 
