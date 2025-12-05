@@ -840,13 +840,11 @@ td.right > img[src^="https://static.lioden.com/images/tags/0/0/"]:hover {
 .lion-image-block[data-image-type="headshot"] {
     position: relative;
     overflow: visible !important;
-}
 
-/* Внутренний круглый аватар (все слои вместе) */
-.lion-image-block[data-image-type="headshot"] > img {
-    border-radius: 50%;
-    display: block;
-} 
+    /* Делаем весь блок круглым */
+    -webkit-mask-image: radial-gradient(circle, #fff 99%, transparent 100%);
+    mask-image: radial-gradient(circle, #fff 99%, transparent 100%);
+}
 
 /* Рамка поверх круга */
 .lion-image-block[data-image-type="headshot"]::after {
