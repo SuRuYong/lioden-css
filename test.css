@@ -158,9 +158,10 @@ background: linear-gradient(0deg, rgba(90, 75, 102, 0.5) 0%, rgba(30, 6, 46, 0.7
 button.button {
 	background: rgb(65,58,83);
 background: linear-gradient(0deg, rgba(90, 75, 102, 0.5) 0%, rgba(30, 6, 46, 0.7) 100%)!important;
-        border: 2px solid #413d54 !important;
+        /*border: 2px solid #413d54 !important;*/
 	border-radius: 5px;
-        color: #8683a6 !important; 
+        color: #cac6cf !important; 
+	text-shadow: 1px 1px 0px #605d79 !important;
 }
 
 button.button:hover {
@@ -168,7 +169,7 @@ button.button:hover {
 background: linear-gradient(0deg, rgba(90, 75, 102, 0.5) 0%, rgba(30, 6, 46, 0.7) 100%)!important;
         border: 2px solid #413d54 !important;
 	border-radius: 5px;
-        color: #796fa1 !important; 
+        color: #c8bfd6 !important; 
         text-shadow: 1px 1px 2px #796fa1 !important;
 }
 
