@@ -820,19 +820,19 @@ table#player img:hover {
     opacity: 100%;
 } */
 
-/* только картинка тега игрока */
-table.inner-table + tr td.right img[src^="https://static.lioden.com/images/tags/0/0/"] {
+/* Только картинка тегов игрока */
+table#player td.right img[src^="https://static.lioden.com/images/tags/0/0/"] {
     opacity: 0.8;
-    border-radius: 50%;
-    max-width: 120px;   /* уменьшаем на 10px */
-    max-height: 120px;  /* уменьшаем на 10px */
-    width: auto;        /* сохраняем пропорции */
-    height: auto;       /* сохраняем пропорции */
+    border-radius: 50%;       /* скругление */
+    width: 130px;             /* уменьшаем на 10px от 150 */
+    height: 130px;            /* уменьшаем на 10px от 150 */
     display: block;
-    margin: 5px auto;   /* центрируем внутри ячейки */
+    margin: auto;             /* центрируем по горизонтали и вертикали */
+    object-fit: contain;      /* полностью помещаем картинку в заданный размер */
+    box-sizing: border-box;   /* учитываем любые границы/отступы */
 }
 
-table.inner-table + tr td.right img[src^="https://static.lioden.com/images/tags/0/0/"]:hover {
+table#player td.right img[src^="https://static.lioden.com/images/tags/0/0/"]:hover {
     opacity: 1;
 }
 
