@@ -50,6 +50,11 @@ background: linear-gradient(0deg, rgba(90, 75, 102, 0.5) 0%, rgba(30, 6, 46, 0.7
 text-shadow: 1px 2px 2px black;
 	border-radius: 5px;
 }
+
+.welcomeback {
+	opacity: 80%;
+}
+
 .container.topbar .welcomeback a {
     color: #9d99ba !important;
 }
@@ -1094,7 +1099,7 @@ Please do not remove credit
 
 .member-online {
     background: rgba(207,207,207,0);
-    content:url('https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZnA4ODZ2cmlpYjB4cmcyYnFsaXJpbmNlajFld3phaXhiZ3R3aHJpeCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/3gRWfmZMI0Cb2Hoaye/giphy.gif')!important;
+    content:url('https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExcm8zdmhhanFsOTA3OTdxeHM3M2tpMncwdzk2aXl2em9jaDY5MHBxMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/8oWXXaXFzcVcGMxltv/giphy.gif')!important;
      width:25px!important;
      height:25px;
  
