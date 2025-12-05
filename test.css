@@ -814,7 +814,7 @@ div#lion_image:hover {
   }
 
 table#player img {
-	opacity: 60%;
+	opacity: 70%;
 }
 table#player img:hover { 
     opacity: 100%;
@@ -844,11 +844,11 @@ position:absolute;
     overflow: visible !important;
 }
 
-/* Внутренний круглый аватар (все слои вместе) 
+/* Внутренний круглый аватар (все слои вместе) */
 .lion-image-block[data-image-type="headshot"] > img {
     border-radius: 50%;
     display: block;
-} */
+} 
 
 /* Рамка поверх круга */
 .lion-image-block[data-image-type="headshot"]::after {
