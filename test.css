@@ -61,8 +61,8 @@ color: #aaa3c9 !important; }
 /* NAVBAR (Den/Crossroads/Etc.) */
 
 .navbar {
-	background: rgb(65,58,83);
-background: linear-gradient(0deg, rgba(90, 75, 102, 0.5) 0%, rgba(30, 6, 46, 0.7) 100%);
+	background: rgba(30,27,37,0.8) !important;
+/*background: linear-gradient(0deg, rgba(90, 75, 102, 0.5) 0%, rgba(30, 6, 46, 0.7) 100%);*/
 	border-bottom: none;
 	color: #000000;
         font-family: "Almendra", serif;
@@ -74,7 +74,7 @@ text-shadow: 1px 2px 2px black;
 /* NAVBAR BUTTON TEXT COLOR */
 
 .navbar li a {
-	color: #ada6bd !important
+	color: #ada6bd !important;
         
 }
 
@@ -337,8 +337,8 @@ button#label_currentChannel /* Channel Button ie. Main, Sales */ {
 .top,
 .bottom,
 th {
-	background: rgb(27,18,64);
-background: linear-gradient(0deg, rgba(34, 24, 61, 1) 0%, rgba(10, 10, 40, 0.81) 100%) !important;
+	background: rgba(30,27,37,0.8) !important;
+/*background: linear-gradient(0deg, rgba(34, 24, 61, 1) 0%, rgba(10, 10, 40, 0.81) 100%) !important;*/
 	color: #b8b3c9 !important;
 	border-radius: 5px !important;
          text-shadow: 1px 1px 2px #453e54; 
@@ -424,8 +424,8 @@ td.right {
 
 .feature,
 div.left {
-	background: rgb(65,58,83);
-background: linear-gradient(0deg, rgba(90, 75, 102, 0.5) 0%, rgba(30, 6, 46, 0.7) 100%);
+	background: rgba(30,27,37,0.8) !important;
+/*background: linear-gradient(0deg, rgba(90, 75, 102, 0.5) 0%, rgba(30, 6, 46, 0.7) 100%);*/
 border-radius: 5px;
 box-shadow: 0px 1px 1px black;
 
