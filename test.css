@@ -842,18 +842,15 @@ position:absolute;
 .lion-image-block[data-image-type="headshot"] {
     position: relative;
     overflow: visible !important;
-    display: inline-block;
 }
 
-/* Контейнер для всех изображений — отключаем pointer events */
-.lion-image-block[data-image-type="headshot"] img {
+/* Внутренний круглый аватар (все слои вместе) */
+.lion-image-block[data-image-type="headshot"] > img {
     border-radius: 50%;
     display: block;
-    pointer-events: none;  /* блокируем hover-эффекты */
-    vertical-align: middle;
 }
 
-/* Рамка поверх аватара */
+/* Рамка поверх круга */
 .lion-image-block[data-image-type="headshot"]::after {
     content: "";
     position: absolute;
@@ -861,8 +858,8 @@ position:absolute;
     left: -12px;
     right: -12px;
     bottom: -12px;
-
-    background-image: url("https://raw.githubusercontent.com/SuRuYong/lioden-css/refs/heads/main/6b555763a9ff0815cff7d45480f03ff4d1ca4ab3.png?raw=true");
+    
+    background-image: url("https://raw.githubusercontent.com/SuRuYong/lioden-css/refs/heads/main/c6a479fae8979bc9c1a02378e488e3ce06b52cb1.png?raw=true");
     background-size: contain;
     background-repeat: no-repeat;
 
