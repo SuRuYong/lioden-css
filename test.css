@@ -80,22 +80,15 @@ text-shadow: 1px 2px 2px black;
 
 /* NAVBAR BUTTON HOVER */
 
-/*.navbar li a:hover {
-	background: url('https://steamuserimages-a.akamaihd.net/ugc/1710788650508208814/340D866FBBD9E6C15AE2F2340C5626C8136DBEAC/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true') !important;
-background-size: cover!important;
-opacity: 60%;
+.navbar li a:hover {
+	background: rgb(65,58,83) !important;
 background-repeat: no-repeat !important;
 	border-bottom: none;
 	color: #FFF !important;
 	border-radius: 5px;
         box-shadow: 0px 0px 6px 2px #0d6052;
 transition: all 0.7s ease;
-} */
-
-.navbar li a:hover {
-	color: #cac6cf !important
-        
-}
+} 
 
 /* BREADCRUMB (Home / Den) */
 
