@@ -19,6 +19,7 @@ body {
         background-repeat: no-repeat;
 	font-family: "Comic Neue", cursive;
         color: #E6E6FA;
+	text-shadow: #b8b3c9 1px 0px 8px !important;
 }
 
 /* MAIN PANEL */
@@ -26,7 +27,7 @@ body {
 /* RIGHT SIDE */
 .container.main {
 	background: rgba(1, 255, 255, 0.05);
-	border: 2px solid ##272530;
+	border: 0px solid ##272530;
 	box-shadow: none;
 	border-radius: 0px
 }
@@ -95,7 +96,7 @@ transition: all 0.3s ease;
 .breadcrumb {
 	background: rgb(27,18,64);
 background: linear-gradient(0deg, rgba(34, 24, 61, 1) 0%, rgba(10, 10, 40, 0.81) 100%) !important;
-        /*border: 2px solid #343042;*/
+        border: 0px solid #343042;
 	border-radius: 5px
 }
 
@@ -140,14 +141,14 @@ opacity: 80%;
 input.floatright {
 	background: rgb(65,58,83);
 background: linear-gradient(0deg, rgba(90, 75, 102, 0.5) 0%, rgba(30, 6, 46, 0.7) 100%)!important;
-        border: 2px solid #413d54 !important;
+        border: 0px solid #413d54 !important;
 	border-radius: 5px;
 	color: #cac6cf !important;    
 }
 input.floatright:hover { 
 background: rgb(65,58,83);
 background: linear-gradient(0deg, rgba(90, 75, 102, 0.5) 0%, rgba(30, 6, 46, 0.7) 100%)!important;
-        border: 2px solid #413d54 !important;
+        border: 0px solid #413d54 !important;
 	border-radius: 5px;
 	color: #aaa3c9 !important; 
         text-shadow: 1px 1px 2px #796fa1 !important;
@@ -194,7 +195,7 @@ h1 {
 	font-size: 60px;
 	text-align: center;
         font-family: "Almendra", serif;
-text-shadow: 1px 2px 2px #362d45;
+text-shadow: #b8b3c9 1px 0px 8px !important;
 }
 
 
@@ -230,7 +231,7 @@ text-shadow: 1px 2px 2px #362d45;
 .panel {
 	background: rgba(24, 22, 66, 0.6) !important;
 	box-shadow: 1px 2px 1px #1b1930 !important;
-	border: solid 2px #1b1930 !important;
+	border: solid 0px #1b1930 !important;
 	color: #c8bfd6 !important;
 	border-radius: 5px
 }
@@ -241,7 +242,7 @@ text-shadow: 1px 2px 2px #362d45;
 background: rgb(72,74,115);
 	color: #000000 !important;
 	border-radius: 5px !important;
-        border: solid 2px #302d40;
+        border: solid 0px #302d40;
 }
 
 /* ENERGY BAR COLOR */
@@ -535,7 +536,7 @@ textarea {
 .item-header {
 	background: rgba(22, 30, 66, 0.9) !important;
 	box-shadow: 1px 2px 1px #1b1930 !important;
-	border: solid 2px #1b1930 !important;
+	border: solid 0px #1b1930 !important;
         border-radius: 5px;
 	color: #FFFFFF  !important;
 text-shadow: 1px 2px 2px #6a6782 !important;
