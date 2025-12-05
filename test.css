@@ -42,7 +42,7 @@ body {
 .topbar {
 	background: rgb(65,58,83);
 background: linear-gradient(0deg, rgba(90, 75, 102, 0.5) 0%, rgba(30, 6, 46, 0.7) 100%);
-	border: 2px solid #302d40;
+	/* border: 2px solid #302d40; */
 	border-top: none;
 	color: #e8e6ef;
         font-family: "Comic Neue", cursive;
@@ -53,10 +53,10 @@ text-shadow: 1px 2px 2px black;
     color: #9d99ba !important;
 }
 ul.toplinks a { 
-color: #9d99ba !important;
+color: #cac6cf !important;
 }
 ul.toplinks a:hover { 
-color: #FFFFFF !important; }
+color: #aaa3c9 !important; }
 
 /* NAVBAR (Den/Crossroads/Etc.) */
 
@@ -65,10 +65,10 @@ color: #FFFFFF !important; }
 background: linear-gradient(0deg, rgba(90, 75, 102, 0.5) 0%, rgba(30, 6, 46, 0.7) 100%);
 	border-bottom: none;
 	color: #000000;
-        font-family: "Comic Neue", cursive;
+        font-family: "Almendra", serif;
 text-shadow: 1px 2px 2px black;
 	border-radius: 5px;
-        border: 2px solid #413d54;
+        /*border: 2px solid #413d54;*/
 }
 
 /* NAVBAR BUTTON TEXT COLOR */
@@ -78,9 +78,9 @@ text-shadow: 1px 2px 2px black;
         
 }
 
-/* NAVBAR BUTTON HOVER 
+/* NAVBAR BUTTON HOVER */
 
-.navbar li a:hover {
+/*.navbar li a:hover {
 	background: url('https://steamuserimages-a.akamaihd.net/ugc/1710788650508208814/340D866FBBD9E6C15AE2F2340C5626C8136DBEAC/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true') !important;
 background-size: cover!important;
 opacity: 60%;
@@ -91,6 +91,11 @@ background-repeat: no-repeat !important;
         box-shadow: 0px 0px 6px 2px #0d6052;
 transition: all 0.7s ease;
 } */
+
+.navbar li a:hover {
+	color: #726b85 !important
+        
+}
 
 /* BREADCRUMB (Home / Den) */
 
