@@ -1003,10 +1003,10 @@ img[src$="beetleunsorted.png"]:hover {
 }
 
 /* Пустые жуки */
-img[src$="addbeetlemound.png"] {
+img[src$="addbeetlemound.jpg"] {
 content: url("https://i.imgur.com/hpmeNES.jpeg") !important;
-	width: 180px;
-	height: 80px;
+	width: 240px;
+	height: 120px;
 	object-fit: cover;
 	
 opacity: 60%;
