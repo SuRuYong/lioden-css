@@ -5,7 +5,7 @@ This template may be used to create paid codes (pre-mades and commissions).
 Please do NOT remove this credit, unless your coding becomes unrecognizable from this one! 
 */
 
-/* FONT (From Google Fonts) */
+/* Загрузка шрифта */
 
 @import url('https://fonts.googleapis.com/css2?family=Almendra:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
@@ -22,9 +22,8 @@ body {
 	text-shadow: #b8b3c9 1px 0px 8px !important;
 }
 
-/* MAIN PANEL */
+/* Основа */
 
-/* RIGHT SIDE */
 .container.main {
 	background: rgba(1, 255, 255, 0.05);
 	border: 0px solid ##272530;
@@ -32,18 +31,16 @@ body {
 	border-radius: 0px
 }
 
-/* LEFT SIDE */
 .col-md-9 {
 	background: none;
         border-right: none;
 }
 
-/* TOPBAR ("Welcome back, ___") */
+/* Шапка */
 
 .topbar {
 	background: rgb(65,58,83);
 background: linear-gradient(0deg, rgba(90, 75, 102, 0.5) 0%, rgba(30, 6, 46, 0.7) 100%);
-	/* border: 2px solid #302d40; */
 	border-top: none;
 	color: #e8e6ef;
         font-family: "Comic Neue", cursive;
@@ -64,20 +61,16 @@ color: #cac6cf !important;
 ul.toplinks a:hover { 
 color: #aaa3c9 !important; }
 
-/* NAVBAR (Den/Crossroads/Etc.) */
+/* Навигация */
 
 .navbar {
 	background: rgba(30,27,37,0.8) !important;
-/*background: linear-gradient(0deg, rgba(90, 75, 102, 0.5) 0%, rgba(30, 6, 46, 0.7) 100%);*/
 	border-bottom: none;
 	color: #ada6bd;
         font-family: "Almendra", serif;
 text-shadow: 1px 2px 2px black;
 	border-radius: 5px;
-        /*border: 2px solid #413d54;*/
 }
-
-/* NAVBAR BUTTON TEXT COLOR */
 
 /* Плавный переход для всех ссылок */
 .navbar li a {
@@ -86,8 +79,6 @@ text-shadow: 1px 2px 2px black;
     display: inline-block; /* важно для transform */
 }
 
-/* NAVBAR BUTTON HOVER */
-
 /* При наведении */
 .navbar li a:hover {
     background: none !important;   /* убираем фон */
@@ -95,7 +86,8 @@ text-shadow: 1px 2px 2px black;
     box-shadow: none !important;    /* убираем тень */
     transform: scale(1.15);         /* увеличиваем текст на 15% */
 }
-/* BREADCRUMB (Home / Den) */
+
+/* Home Den */
 
 .breadcrumb {
 	background: rgb(27,18,64);
@@ -104,23 +96,9 @@ background: linear-gradient(0deg, rgba(34, 24, 61, 1) 0%, rgba(10, 10, 40, 0.81)
 	border-radius: 5px
 }
 
-/* BREADCRUMB TEXT */
-
 .breadcrumb .active {
 	color: #ada6bd
 }
-
-/* CSS CREDIT 
-
-.breadcrumb::after {
-        content: "Template by Katie (#106445) | Edited by #93596";
-        color: #ada6bd;
-        position: absolute;
-font-size: 12px;
-opacity: 80%;
-        right: 14%; /* (This may need adjusting)
-        z-index: 100
-    }*/
 
 @media only screen and (max-width: 1199px) and (min-width: 992px)  {
         .breadcrumb::after {
@@ -140,29 +118,27 @@ opacity: 80%;
         }
     }
 
-/* BOOKMARK BUTTON */
+/* Кнопка Закладки */
 
 input.floatright {
-	background: rgb(65,58,83);
-background: linear-gradient(0deg, rgba(90, 75, 102, 0.5) 0%, rgba(30, 6, 46, 0.7) 100%)!important;
+	background: rgba(30, 27, 37, 0.8) !important;
         border: 0px solid #413d54 !important;
 	border-radius: 5px;
 	color: #cac6cf !important;    
 }
 input.floatright:hover { 
-background: rgb(65,58,83);
-background: linear-gradient(0deg, rgba(90, 75, 102, 0.5) 0%, rgba(30, 6, 46, 0.7) 100%)!important;
+background: rgba(30, 27, 37, 0.8) !important;
         border: 0px solid #413d54 !important;
 	border-radius: 5px;
 	color: #aaa3c9 !important; 
         text-shadow: 1px 1px 2px #796fa1 !important;
+	 transform: scale(1.15);         /* увеличиваем текст на 15% */
  }
 
 /* SWITCH ACCOUNT BUTTON */
 
 button.button {
-	background: rgb(65,58,83);
-background: linear-gradient(0deg, rgba(90, 75, 102, 0.5) 0%, rgba(30, 6, 46, 0.7) 100%)!important;
+	background: rgba(30, 27, 37, 0.8) !important;
         border: 0px solid #413d54 !important;
 	border-radius: 5px;
         color: #cac6cf !important; 
@@ -170,12 +146,12 @@ background: linear-gradient(0deg, rgba(90, 75, 102, 0.5) 0%, rgba(30, 6, 46, 0.7
 }
 
 button.button:hover {
-	background: rgb(65,58,83);
-background: linear-gradient(0deg, rgba(90, 75, 102, 0.5) 0%, rgba(30, 6, 46, 0.7) 100%)!important;
+	background: rgba(30, 27, 37, 0.8) !important;
         border: 0px solid #413d54 !important;
 	border-radius: 5px;
         color: #c8bfd6 !important; 
         text-shadow: 1px 1px 2px #796fa1 !important;
+	transform: scale(1.15);         /* увеличиваем текст на 15% */
 }
 
 /* ALERTS (ie. "Your lionesses have returned from hunting!") */
