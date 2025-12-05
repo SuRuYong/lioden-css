@@ -842,17 +842,15 @@ position:absolute;
 .lion-image-block[data-image-type="headshot"] {
     position: relative;
     overflow: visible !important;
+    display: inline-block;
 }
 
-/* Все изображения внутри блока — круглые, без бордеров/эффектов */
+/* Контейнер для всех изображений — отключаем pointer events */
 .lion-image-block[data-image-type="headshot"] img {
     border-radius: 50%;
-    display: block;       /* сохраняем блоковое поведение */
-    border: 0 !important; /* убираем бордеры */
-    outline: 0 !important; /* убираем обводку */
-    box-shadow: none !important; /* убираем тени */
-    background: transparent !important; /* на всякий случай */
-    vertical-align: middle; /* чтобы не «улетали» вниз */
+    display: block;
+    pointer-events: none;  /* блокируем hover-эффекты */
+    vertical-align: middle;
 }
 
 /* Рамка поверх аватара */
