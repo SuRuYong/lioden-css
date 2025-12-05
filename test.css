@@ -823,7 +823,7 @@ table#player img:hover {
 /* Только картинка тега игрока в правой ячейке */
 td.right > img[src^="https://static.lioden.com/images/tags/0/0/"] {
     opacity: 0.8;
-    border-radius: 50%;       /* скругление */
+    border-radius: 90%;       /* скругление */
     max-width: 100px;          /* на 10px меньше контейнера */
     max-height: 100px;         /* на 10px меньше контейнера */
     width: auto;               /* сохраняем пропорции */
