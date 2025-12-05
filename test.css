@@ -982,7 +982,7 @@ content: url("https://i.imgur.com/hpmeNES.jpeg") !important;
 	object-fit: cover;
 	
 opacity: 60%;
-transition: opacity 0.3s ease;
+/*transition: opacity 0.3s ease;*/
 }
 /*img[src$="caveunused.jpg"]:hover {
   opacity: 100%;
@@ -1004,13 +1004,13 @@ img[src$="beetleunsorted.png"]:hover {
 
 /* Пустые жуки */
 img[src$="addbeetlemound.png"] {
-content: url("https://i.imgur.com/h5o3sJr.jpeg") !important;
+content: url("https://i.imgur.com/hpmeNES.jpeg") !important;
 	width: 180px;
 	height: 80px;
 	object-fit: cover;
 	
 opacity: 60%;
-transition: opacity 0.3s ease;
+/*transition: opacity 0.3s ease;*/
 }
 /*img[src$="addbeetlemound.png"]:hover {
   opacity: 100%;
