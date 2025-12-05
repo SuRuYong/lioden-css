@@ -823,24 +823,14 @@ table#player img:hover {
 table#player img {
   opacity: 0.8;
   border-radius: 50%; /* скругление */
+  width: calc(100% - 10px); /* уменьшаем на 10px */
+  height: auto; /* сохраняем пропорции */
   display: block;
-  width: 140px; /* 150px минус 10 */
-  height: 140px; /* 150px минус 10 */
-  object-fit: cover; /* сохраняет пропорции, не растягивая */
+  margin: 5px auto; /* центрирование по вертикали и горизонтали */
 }
 
 table#player img:hover {  
   opacity: 1;
-}
-
-.img-wrapper {
-  width: 150px;
-  height: 150px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-  border-radius: 50%; /* скругление контейнера */
 }
 
 
