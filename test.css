@@ -444,12 +444,13 @@ width: 275px;
 	
 opacity: 60%;
 transition: opacity 0.3s ease;
+	  transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1); /* spring effect */
 display: inline-block; /* важно для transform */
 	
 }
 img[src$="ancestors.png"]:hover {
 opacity: 100%;
-transform: scale(1.15);         /* увеличиваем текст на 15% */
+transform: scale(1.05);         /* увеличиваем текст на 15% */
 }
  
 /* PRIDE DYNASTY */
@@ -461,9 +462,12 @@ width: 275px;
 	
 opacity: 60%;
 transition: opacity 0.3s ease;
+	  transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1); /* spring effect */
+display: inline-block; /* важно для transform */
 }
 img[src$="den_ancestorsfem.png"]:hover {
 opacity: 100%;
+	transform: scale(1.05);         /* увеличиваем текст на 15% */
 
 }
  
@@ -476,10 +480,12 @@ width: 275px;
 	
 opacity: 60%;
 transition: opacity 0.3s ease;
+	 transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1); /* spring effect */
+display: inline-block; /* важно для transform */
 }
 img[src$="den_achievements.png"]:hover {
 opacity: 100%;
-
+transform: scale(1.05);         /* увеличиваем текст на 15% */
 }
  
 /* SHOWCASE */
@@ -491,10 +497,12 @@ width: 275px;
 	
 opacity: 60%;
 transition: opacity 0.3s ease;
+	 transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1); /* spring effect */
+display: inline-block; /* важно для transform */
 }
 img[src$="den_showcase.png"]:hover {
 opacity: 100%;
-
+transform: scale(1.05);         /* увеличиваем текст на 15% */
 }
 /* Beetle Book*/
  img[src$="den_beetlebook.png"] {
@@ -505,10 +513,12 @@ width: 275px;
 	
 opacity: 60%;
 transition: opacity 0.3s ease;
+	  transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1); /* spring effect */
+display: inline-block; /* важно для transform */
 }
 img[src$="den_beetlebook.png"]:hover {
 opacity: 100%;
-
+transform: scale(1.05);         /* увеличиваем текст на 15% */
 }
 
 /* Block of color behind "Territory Description, Player Name, Avatar URL" etc. */
@@ -955,10 +965,12 @@ width: 260px;
 	
 opacity: 60%;
 transition: opacity 0.3s ease;
+	  transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1); /* spring effect */
+    display: inline-block; /* важно для transform */
 }
 img[src$="unsortedlionsbanner.png"]:hover {
 opacity: 100%;
-
+  transform: scale(1.05);         /* увеличиваем текст на 15% */
 }
 
 /*Nesting*/
@@ -970,9 +982,12 @@ content: url('https://i.imgur.com/ud3pALW.jpeg')!important;
 	
 opacity: 60%;
 transition: opacity 0.3s ease;
+	transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1); /* spring effect */
+    display: inline-block; /* важно для transform */
 }
 img[src$="nestingbanner.png"]:hover {
 opacity: 100%;
+	transform: scale(1.05);         /* увеличиваем текст на 15% */
 }
 
 
@@ -985,9 +1000,13 @@ content: url('https://i.imgur.com/ud3pALW.jpeg')!important;
 	
 opacity: 60%;
 transition: opacity 0.3s ease;
+	transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1); /* spring effect */
+    display: inline-block; /* важно для transform */
 }
 img[src$="overviewbanner.png"]:hover { 
-opacity: 100%;}
+opacity: 100%;
+transform: scale(1.05);         /* увеличиваем текст на 15% */
+}
 
 
 /* Other caves */
@@ -999,9 +1018,12 @@ content: url("https://i.imgur.com/ud3pALW.jpeg") !important;
 	
 opacity: 60%;
 transition: opacity 0.3s ease;
+	transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1); /* spring effect */
+    display: inline-block; /* важно для transform */
 }
 img[src$="cavedefault.jpg"]:hover {
   opacity: 100%;
+	transform: scale(1.05);         /* увеличиваем текст на 15% */
 }
 
 /* Неиспользованные кейвы */
@@ -1027,9 +1049,12 @@ content: url("https://i.imgur.com/h5o3sJr.jpeg") !important;
 	
 opacity: 60%;
 transition: opacity 0.3s ease;
+	transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1); /* spring effect */
+    display: inline-block; /* важно для transform */
 }
 img[src$="beetleunsorted.png"]:hover {
   opacity: 100%;
+	transform: scale(1.05);         /* увеличиваем текст на 15% */
 }
 
 /* Активные жуки */
@@ -1041,9 +1066,12 @@ content: url("https://i.imgur.com/h5o3sJr.jpeg") !important;
 	
 opacity: 60%;
 transition: opacity 0.3s ease;
+	transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1); /* spring effect */
+    display: inline-block; /* важно для transform */
 }
 img[src$="beetlemound.png"]:hover {
   opacity: 100%;
+	transform: scale(1.05);         /* увеличиваем текст на 15% */
 }
 
 
