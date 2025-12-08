@@ -827,7 +827,7 @@ div#lion_image {
 div#lion_image:hover {
     opacity: 100%;
     transition: 0.3 ease;
-	transform: scale(1.5);         /* увеличиваем на 15% */
+	transform: scale(1.05);         /* увеличиваем на 15% */
   }
 
 /* Только картинка тега игрока в правой ячейке */
