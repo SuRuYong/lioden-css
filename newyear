@@ -1,0 +1,1315 @@
+/*
+Free to use CSS template by Katie (#106445).
+This code may be altered, edited, or re-uploaded. 
+This template may be used to create paid codes (pre-mades and commissions).
+Please do NOT remove this credit, unless your coding becomes unrecognizable from this one! 
+*/
+
+/* HEAVILY EDITED BY BAKAKONEKO (#513777): new codes, fixed things, personal comms */
+
+/* Загрузка шрифта */
+
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+
+/* Фон и весь текст не считая шапки, название логова */
+
+body {
+	background: url('https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExb24yeDAwMWxtNDZtcDBjZHQ3dDZiMTAyZnAwZHQ1MTNocnpnM2Y5OCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/NSd5vWyLStt1tdI3cM/giphy.gif') center center fixed;
+	background-size: cover;
+        height: 100%;
+        width: 100%;
+        background-repeat: no-repeat;
+	font-family: "Playball", cursive;;
+        color: #c6dfee;
+	text-shadow: #b3c9c4 1px 0px 8px !important;
+}
+
+/* Основа */
+
+.container.main {
+	background: rgba(1, 255, 255, 0.05);
+	border: 0px solid ##272530;
+	box-shadow: none;
+	border-radius: 0px
+}
+
+.col-md-9 {
+	background: none;
+        border-right: none;
+}
+
+/* Шапка */
+
+.topbar {
+	background: rgb(66, 105, 98);
+/* background: linear-gradient(0deg, rgba(90, 75, 102, 0.5) 0%, rgba(30, 6, 46, 0.7) 100%); */
+	border-top: none;
+	color: #e8e6ef;
+        font-family: "Comic Neue", cursive;
+text-shadow: 1px 2px 2px black;
+	border-radius: 5px;
+}
+
+.welcomeback {
+	opacity: 80%;
+}
+
+.container.topbar .welcomeback a {
+    color: #99b1ba !important;
+}
+ul.toplinks a { 
+color: #c6cecf !important;
+}
+ul.toplinks a:hover { 
+color: #a3c9c3 !important; }
+
+/* Навигация */
+
+.navbar {
+	background: rgba(30, 47, 54,0.8) !important;
+	border-bottom: none;
+	color: #a6babd;
+        font-family: "Playball", cursive;;
+text-shadow: 1px 2px 2px black;
+	border-radius: 5px;
+}
+
+/* Плавный переход для всех ссылок */
+.navbar li a {
+    color: #a6babd !important;
+    transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1); /* spring effect */
+    display: inline-block; /* важно для transform */
+}
+
+/* При наведении */
+.navbar li a:hover {
+    background: none !important;   /* убираем фон */
+    color: inherit !important;      /* оставляем цвет */
+    box-shadow: none !important;    /* убираем тень */
+    transform: scale(1.15);         /* увеличиваем текст на 15% */
+}
+
+/* Home Den */
+
+.breadcrumb {
+	background: rgb(27,18,64);
+background: linear-gradient(0deg, rgba(34, 24, 61, 1) 0%, rgba(10, 10, 40, 0.81) 100%) !important;
+        border: 0px solid #343042;
+	border-radius: 5px
+}
+
+.breadcrumb .active {
+	color: #a6babd
+}
+
+@media only screen and (max-width: 1199px) and (min-width: 992px)  {
+        .breadcrumb::after {
+            right: 20%
+        }
+    }
+
+    @media only screen and (max-width: 991px) and (min-width: 768px)  {
+        .breadcrumb::after {
+            right: 20%
+        }
+    }
+
+    @media only screen and (max-width: 767px) {
+        .breadcrumb::after {
+            right: 22%
+        }
+    }
+
+/* Кнопка Закладки */
+
+input.floatright {
+	background: rgba(30, 27, 37, 0.8) !important;
+        border: 0px solid #413d54 !important;
+	border-radius: 5px;
+	color: #c6cecf !important;
+	   transition: transform 0.6s cubic-bezier(0.34, 1.56, 0.64, 1); /* spring effect */
+    display: inline-block; /* важно для transform */
+}
+input.floatright:hover { 
+background: rgba(30, 27, 37, 0.8) !important;
+        border: 0px solid #413d54 !important;
+	border-radius: 5px;
+	color: #a3c9c3 !important; 
+        text-shadow: 1px 1px 2px #796fa1 !important;
+	 transform: scale(1.15);         /* увеличиваем текст на 15% */
+ }
+
+/* SWITCH ACCOUNT BUTTON */
+
+button.button {
+	background: rgba(30, 27, 37, 0.8) !important;
+        border: 0px solid #413d54 !important;
+	border-radius: 5px;
+        color: #c6cecf !important; 
+	text-shadow: 1px 1px 0px #605d79 !important;
+	   transition: transform 0.6s cubic-bezier(0.34, 1.56, 0.64, 1); /* spring effect */
+    display: inline-block; /* важно для transform */
+}
+
+button.button:hover {
+	background: rgba(30, 27, 37, 0.8) !important;
+        border: 0px solid #413d54 !important;
+	border-radius: 5px;
+        color: #c8bfd6 !important; 
+        text-shadow: 1px 1px 2px #796fa1 !important;
+	transform: scale(1.15);         /* увеличиваем текст на 15% */
+}
+
+/* ALERTS (ie. "Your lionesses have returned from hunting!") */
+
+.alert,
+.alert-warning,
+.alert-danger,
+.alert-success {
+	background: rgba(24, 22, 66, 0.6) !important;
+	border: solid 1px #a58fba ;
+	color: #a58fba;
+	border-radius: 5px !important;
+        box-shadow: 0px 0px 10px #a58fba !important;
+        margin-top: 10px;
+}
+
+#fraProfileContent a {
+	transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1); /* spring effect */
+    display: inline-block; /* важно для transform */
+}
+
+#fraProfileContent a:hover {
+	transform: scale(1.15);         /* увеличиваем текст на 15% */
+}
+	
+
+/* BIGGEST HEADER ("___"'s DEN) */
+
+h1 {
+	color: #b3c9c4 !important;
+	font-size: 60px;
+	text-align: center;
+        font-family: "Almendra";
+text-shadow: #b3c9c4 1px 0px 8px !important;
+}
+
+
+/* MEDIUM HEADER */
+
+h2 {
+	color: #b3c9c4;
+	font-size: 24px;
+	text-align: center;
+text-shadow: 1px 2px 2px #362d45;
+}
+
+
+/* SMALL HEADER */
+
+h3 {
+	color: #b3c9c4 !important;
+	font-size: 14px !important;
+text-shadow: 1px 2px 2px #362d45;
+}
+
+/* RIGHT SIDE PANEL HEADER */
+
+.sidebar h3 {
+	color: #b3c9c4 !important;
+        font-size: 26px !important;
+        font-family: "Almendra", serif;
+	text-align: center;
+	text-shadow: #b3c9c4 1px 0px 8px;
+}
+
+/* RIGHT SIDE PANELS */
+.panel {
+	background: rgba(24, 22, 66, 0.6) !important;
+	box-shadow: 1px 2px 1px #1b1930 !important;
+	border: solid 0px #1b1930 !important;
+	color: #c8bfd6 !important;
+	border-radius: 5px
+}
+
+.panel-body.small {
+	opacity: 80%;
+}
+
+/* ENERGY BAR BACKGROUND */
+.progress {
+	background: rgb(65,58,83);
+background: rgb(72,74,115);
+	color: #000000 !important;
+	border-radius: 5px !important;
+        border: solid 0px #302d40;
+}
+
+/* ENERGY BAR COLOR */
+.progress-bar {
+         background: #535061;
+background: linear-gradient(90deg,rgba(83, 80, 97, 0.8) 0%, rgba(164, 157, 194, 0.8) 100%);
+	color: #000000 !important;
+	border-radius: 5px !important;
+        
+    
+}
+
+/* ENERGY BAR TEXT */
+.progress div {
+	color: #E6E6FA !important;
+text-shadow: 1px 2px 2px #cecbeb !important;
+}
+
+
+
+/* CHAT */
+
+.s-chat-message:nth-child(even) /* Even Numbered Messages */ {
+	background: rgba(22, 30, 66, 0.9) !important;
+        color: #b3c9c4 !important;
+	border: none !important
+}
+
+.s-chat-message:nth-child(odd) /* Odd Numbered Messages */ {
+	background: rgba(1, 1, 1, 0.2) !important;
+        color: #b3c9c4 !important;
+	border: none !important
+}
+
+.s-chat-message__pinned /* Pinned Message */ {
+	background: rgba(1, 1, 1, 0.2) !important;
+        color: #b3c9c4 !important;
+	border: none !important
+}
+
+.s-chat-message_timestamp /* Timestamps */ {
+	color: #b3c9c4 !important;
+}
+
+div#chatMessageContainer {
+	border: none !important;
+}
+
+button#label_currentChannel /* Channel Button ie. Main, Sales */ {
+	background: rgba(1, 1, 1, 0.5) !important;
+        color: #b3c9c4 !important;
+	border: none !important
+}
+
+/* LION INFO TABLE (Level, Stats, Territory Count, Etc.) */
+
+
+/* PANEL BACKGROUND COLOR */
+
+.table {
+	background: rgba(24, 22, 66, 0.6) !important;
+	box-shadow: 1px 2px 2px #1b1930 !important;
+	border: solid 1px #1b1930 !important;
+	color: #c8bfd6 !important;
+	border-radius: 5px !important;
+	border-collapse: separate;
+}
+#about {
+    position: relative;
+    border-collapse: collapse;
+    border-radius: 5px;
+    overflow: hidden;
+     width: 100%;
+}
+
+/* table image background #93596 */
+
+#about::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 60%;
+    background-image:     url('https://wallpapershome.com/images/pages/pic_h/26273.jpg') !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 0;
+}
+
+/* HEADERS COLOR (King Name + Title, "There are _ lions with mutations in _'s pride.") */
+
+.top,
+.bottom,
+th {
+	background: rgba(30,27,37,0.8) !important;
+/*background: linear-gradient(0deg, rgba(34, 24, 61, 1) 0%, rgba(10, 10, 40, 0.81) 100%) !important;*/
+	color: #b3c9c4 !important;
+	border-radius: 5px !important;
+         text-shadow: 1px 1px 2px #453e54; 
+
+      
+
+}
+
+/*Remove .top for full background in table, affects shown title so better to use custom title in that case, don't know how to fix that yet. #93596 */
+
+.top { z-index: 0;
+position: relative;
+border-radius: 5px !important;
+opacity: 90%
+}
+
+td.bottom a {
+        text-decoration: none !important;
+        z-index: 1;
+        position:relative;
+        text-align: center !important;
+}
+
+/* Color behind "Level, Stats, Branch, Territory" etc. */
+
+.inner-table .left {
+	background: rgba(38, 30, 53, 0.6) !important;
+        color: #b3c9c4;
+        text-shadow: 1px 3px 2px black !important;
+	border-radius: 5px !important;
+box-shadow: 1px 2px 1px #1b1930 !important;
+}
+/* LION NAME COLOR */
+#about .xlarge.b .bigger {
+        color: #b3c9c4 !important;
+        z-index: 1;
+        position:relative;
+}
+
+
+
+/* Color behind the number of all of the things above */
+
+.inner-table .right {
+	background: rgba(38, 30, 53, 0.6);
+	border-radius: 5px !important;
+box-shadow: 1px 2px 1px #1b1930 !important;
+color: #b3c9c4;
+ text-shadow: 1px 2px 3px #6a6782 !important;
+}
+
+td.right {
+	border-radius: 5px !important;
+}
+
+/* IGNORE */
+.right_odd {
+	background: none !important
+}
+
+/* Affects the color behind "_ Unsorted", "_ Pregnant Lionesses", "View Pride Overview", and cave/mound names */
+
+.cave-grid,
+.mound-grid {
+	background: rgba(24, 22, 66, 0.6) !important;
+	box-shadow: 1px 2px 2px #1b1930 !important;
+	border: solid 1px #1b1930 !important;
+        border-radius: 5px !important;
+}
+
+/* FEED ALL, PLAY ALL */
+
+.feature {
+	background: #5d5869 !important;
+	border-radius: 5px !important;
+        box-shadow: 1px 2px 1px #474051 !important;
+        border: 1px solid #a58fba !important;
+         text-shadow: 1px 2px 2px #8d88a97a !important;
+	color:  #d4c7e1 !important;
+	opacity: 80%;
+}
+
+/* "King Dynasty, Pride Dynasty, Achievements, Showcase" Panels */
+
+.feature,
+div.left {
+	background: rgba(30,27,37,0.8) !important;
+/*background: linear-gradient(0deg, rgba(90, 75, 102, 0.5) 0%, rgba(30, 6, 46, 0.7) 100%);*/
+border-radius: 5px;
+box-shadow: 0px 1px 1px black;
+
+}
+ 
+/* KING DYNASTY */
+ img[src$="ancestors.png"] {
+content: url('https://i.imgur.com/ud3pALW.jpeg')!important;
+width: 275px;
+	height: 50px;
+	object-fit: cover;
+	
+opacity: 60%;
+transition: opacity 0.3s ease;
+	  transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1); /* spring effect */
+display: inline-block; /* важно для transform */
+	
+}
+img[src$="ancestors.png"]:hover {
+opacity: 100%;
+transform: scale(1.05);         /* увеличиваем текст на 15% */
+}
+ 
+/* PRIDE DYNASTY */
+ img[src$="den_ancestorsfem.png"] {
+content: url('https://i.imgur.com/ud3pALW.jpeg')!important;
+width: 275px;
+	height: 50px;
+	object-fit: cover;
+	
+opacity: 60%;
+transition: opacity 0.3s ease;
+	  transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1); /* spring effect */
+display: inline-block; /* важно для transform */
+}
+img[src$="den_ancestorsfem.png"]:hover {
+opacity: 100%;
+	transform: scale(1.05);         /* увеличиваем текст на 15% */
+
+}
+ 
+/* ACHIEVMENTS */
+ img[src$="den_achievements.png"] {
+content: url('https://i.imgur.com/ud3pALW.jpeg')!important;
+width: 275px;
+	height: 50px;
+	object-fit: cover;
+	
+opacity: 60%;
+transition: opacity 0.3s ease;
+	 transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1); /* spring effect */
+display: inline-block; /* важно для transform */
+}
+img[src$="den_achievements.png"]:hover {
+opacity: 100%;
+transform: scale(1.05);         /* увеличиваем текст на 15% */
+}
+ 
+/* SHOWCASE */
+ img[src$="den_showcase.png"] {
+content: url('https://i.imgur.com/ud3pALW.jpeg')!important;
+width: 275px;
+	height: 50px;
+	object-fit: cover;
+	
+opacity: 60%;
+transition: opacity 0.3s ease;
+	 transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1); /* spring effect */
+display: inline-block; /* важно для transform */
+}
+img[src$="den_showcase.png"]:hover {
+opacity: 100%;
+transform: scale(1.05);         /* увеличиваем текст на 15% */
+}
+/* Beetle Book*/
+ img[src$="den_beetlebook.png"] {
+content: url('https://i.imgur.com/ud3pALW.jpeg')!important;
+width: 275px;
+	height: 50px;
+	object-fit: cover;
+	
+opacity: 60%;
+transition: opacity 0.3s ease;
+	  transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1); /* spring effect */
+display: inline-block; /* важно для transform */
+}
+img[src$="den_beetlebook.png"]:hover {
+opacity: 100%;
+transform: scale(1.05);         /* увеличиваем текст на 15% */
+}
+
+/* Block of color behind "Territory Description, Player Name, Avatar URL" etc. */
+
+.table .left {
+	background: rgba(22, 30, 66, 0.9) !important;
+	box-shadow: 1px 2px 1px #1b1930 !important;
+	border: solid 2px #1b1930 !important;
+        border-radius: 5px;
+}
+
+/* Color behind the content of the elements listed above */
+
+input,
+select,
+textarea {
+	background: rgba(137, 131, 165, 0.3) !important;
+	box-shadow: 1px 2px 1px #1b1930 !important;
+	border: solid 2px #1b1930 !important;
+	border-radius: 5px !important;
+	color: #b3c9c4 !important;
+	box-shadow: none !important;
+	text-shadow: none !important;
+}
+
+/* ACCOUNT OPTIONS PANELS  (Friend Requests Toggles, etc.) */
+
+.item-header {
+	background: rgba(22, 30, 66, 0.9) !important;
+	box-shadow: 1px 2px 1px #1b1930 !important;
+	border: solid 0px #1b1930 !important;
+        border-radius: 5px;
+	color: #FFFFFF  !important;
+text-shadow: 1px 2px 2px #6a6782 !important;
+}
+
+.item {
+	background: rgba(1, 1, 1, 0.2) !important;
+	border: none !important;
+	border-radius: 5px !important
+}
+
+/* ACCOUNT OPTIONS ON/OFF TOGGLE SWITCH */
+
+div.slider.round /* Background */ {
+	background: #FFF !important
+}
+
+div.slider.round::before /* Circle Part */ {
+	background: #FFF !important
+}
+
+/* Copyright, Terms of Service, CoC, etc. */
+
+div.container.footer.center.white.visible-lg.visible-md.visible-sm, div.container.footer.center.white.visible-lg.visible-md.visible-sm a {
+        color: #b3c9c4 !important;
+        text-shadow: 1px 1px 1
+px #978cb8 !important;
+}
+
+/* LINK COLOR */
+
+a:link,
+a:visited {
+	color: #c6cecf !important;
+text-shadow: #b3c9c4 1px 0px 8px !important;
+	border-bottom: 0px solid #c6cecf !important;
+	transition: 0.5s !important;
+}
+
+a.external-link {
+	  transition: transform 0.6s cubic-bezier(0.34, 1.56, 0.64, 1); /* spring effect */
+    display: inline-block; /* важно для transform */
+}
+
+a.external-link:hover {
+	  transform: scale(1.15);         /* увеличиваем текст на 15% */
+}
+
+/* LINK HOVER COLOR */
+
+a:hover {
+	color: #a3c9c3 !important;
+}
+
+
+/* BOX CONTAINER */
+
+.boxcontainer {
+	background: none;
+	height: auto;
+	padding: 0px;
+	justify-content: center;
+	display: flex;
+        position:relative;
+        flex-direction: column;
+        align-items: center;
+}
+
+/* BOTTOM BOXES (medium, small) for better alignment #93596 */
+.bottomboxes { 
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 60%;
+    flex-direction: row; }
+/* BOXES */
+
+.smallbox {
+	float: right;
+	background: rgb(65,58,83);
+background: linear-gradient(0deg, rgba(90, 75, 102, 0.5) 0%, rgba(30, 6, 46, 0.7) 100%);
+	color: #b3c9c4;
+	padding: 10px;
+	border: solid 1px #99b1ba;
+    box-shadow: 0px 0px 10px 2px #6a6782;
+	border-radius: 5px;
+	margin: 5px;
+    transition: 3s;
+    overflow: auto;
+    box-sizing: border-box;
+    display: inline-block;
+	height: 150px;
+	width: 48%;
+}
+
+.mediumbox {
+	float: left;
+	background: rgb(65,58,83);
+background: linear-gradient(0deg, rgba(90, 75, 102, 0.5) 0%, rgba(30, 6, 46, 0.7) 100%);
+	color: #b3c9c4;
+	padding: 10px;
+	border: solid 1px #99b1ba;
+    box-shadow: 0px 0px 10px 2px #6a6782;
+	border-radius: 5px;
+	margin: 5px;
+    transition: 3s;
+    overflow: auto;
+    box-sizing: border-box;
+    display: inline-block;
+	height: 250px;
+	width: 48%;
+}
+
+.largebox {
+	float: center;
+	background: rgb(65,58,83);
+background: linear-gradient(0deg, rgba(90, 75, 102, 0.5) 0%, rgba(30, 6, 46, 0.7) 100%);
+	color: #b3c9c4;
+	padding: 10px;
+	border: solid 1px #99b1ba;
+        box-shadow: 0px 0px 10px 2px #6a6782;
+	border-radius: 5px;
+	margin: 5px;
+	height: 350px;
+	width: 60%;
+        transition: 3s;
+        overflow: auto;
+        box-sizing: border-box;
+        display: inline-block;
+}
+
+/* HOVER BOXES */
+
+.smallhoverbox {
+	float: right;
+	background: rgb(65,58,83);
+background: linear-gradient(0deg, rgba(90, 75, 102, 0.5) 0%, rgba(30, 6, 46, 0.7) 100%);
+	color: #b3c9c4;
+	padding: 10px;
+	border: solid 1px #99b1ba;
+    box-shadow: 0px 0px 10px 2px #6a6782;
+	border-radius: 5px;
+	margin: 5px;
+    transition: 3s;
+    overflow: auto;
+    box-sizing: border-box;
+    display: inline-block;
+	height: 150px;
+	width: 48%;
+}
+
+.smallhoverbox:hover {
+	height: 250px;
+	width: 60%;
+}
+
+.mediumhoverbox {
+	float: left;
+	background: rgb(65,58,83);
+background: linear-gradient(0deg, rgba(90, 75, 102, 0.5) 0%, rgba(30, 6, 46, 0.7) 100%);
+	color: #b3c9c4;
+	padding: 10px;
+	border: solid 1px #99b1ba;
+    box-shadow: 0px 0px 10px 2px #6a6782;
+	border-radius: 5px;
+	margin: 5px;
+    transition: 3s;
+    overflow: auto;
+    box-sizing: border-box;
+    display: inline-block;
+	height: 250px;
+	width: 48%;
+}
+
+.mediumhoverbox:hover {
+	height: 350px;
+	width: 60%;
+}
+
+.largehoverbox {
+	float: center;
+	background: rgb(65,58,83);
+background: linear-gradient(0deg, rgba(90, 75, 102, 0.5) 0%, rgba(30, 6, 46, 0.7) 100%);
+	color: #b3c9c4;
+	padding: 10px;
+	border: solid 1px #99b1ba;
+    box-shadow: 0px 0px 10px 2px #6a6782;
+	border-radius: 5px;
+	margin: 5px;
+    transition: 3s;
+    overflow: auto;
+    box-sizing: border-box;
+	height: 350px;
+	width: 60%;
+}
+
+.largehoverbox:hover {
+	height: 500px;
+	width: 75%;
+        overflow: auto;
+}
+/* SCROLLBAR FIX FOR BOXES since overflow hates me #93596 */
+
+.largehoverbox::-webkit-scrollbar-track, .mediumhoverbox::-webkit-scrollbar-track, .smallhoverbox::-webkit-scrollbar-track, 
+.largebox::-webkit-scrollbar-track, .mediumbox::-webkit-scrollbar-track, .smallbox::-webkit-scrollbar-track {
+    background: #6a6782;
+    border-radius: 5px !important; 
+}
+
+.largehoverbox::-webkit-scrollbar-thumb, .mediumhoverbox::-webkit-scrollbar-thumb, .smallhoverbox::-webkit-scrollbar-thumb, 
+.largebox::-webkit-scrollbar-thumb, .mediumbox::-webkit-scrollbar-thumb, .smallbox::-webkit-scrollbar-thumb  {
+    background:  #5f4e82;
+    border-radius: 5px !important; 
+}
+
+/* IMG SIZE FIX for boxes */
+.largehoverbox img, .largebox img, .mediumbox img, .mediumhoverbox:hover img, .smallbox img, .smallhoverbox img { 
+    max-width: 90%;
+    max-height: 90%;
+}
+/* SIDE BOX IMAGE #93596 */
+
+.side { 
+    position:absolute;
+    top: 235px;
+    left: 134px;
+    transition: top 3s ease, left 2s ease;
+}
+.largehoverbox:hover + .side {
+position:absolute;
+    top: 385px;
+    left: 729px;
+    transition: top 3s ease, left 2s ease;
+ }
+ @media only screen and (max-width: 1199px) and (min-width: 992px)  {
+    .side {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 991px) and (min-width: 768px)  {
+    .side {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .side {
+        display: none;
+    }
+}
+/* SCROLL BAR */
+
+/* WIDTH */
+
+::-webkit-scrollbar {
+	width: 10px;
+border-radius: 0px !important;
+}
+
+/* BACKGROUND */
+
+::-webkit-scrollbar-track {
+	background: #504e5f;
+        border: solid 1px #0e0229;
+border-radius: 0px !important;
+}
+
+
+/* "THUMB" */
+
+::-webkit-scrollbar-thumb {
+	background: #77748b;
+	border-radius: 5px;
+}
+
+
+
+/* LION AND USER AVATAR OPACITY */
+
+div#lion_image {
+	opacity: 80%;
+	transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1); /* spring effect */
+    display: inline-block; /* важно для transform */
+}
+
+div#lion_image:hover {
+    opacity: 100%;
+    transition: 0.3 ease;
+	transform: scale(1.05);         /* увеличиваем на 15% */
+  }
+
+/* Только картинка тега игрока в правой ячейке */
+td.right > img[src^="https://static.lioden.com/images/tags/0/0/"] {
+    opacity: 0.8;
+    border-radius: 100%;       /* скругление */
+    max-width: 120px;          /* на 10px меньше контейнера */
+    max-height: 120px;         /* на 10px меньше контейнера */
+    width: auto;               /* сохраняем пропорции */
+    height: auto;              /* сохраняем пропорции */
+    display: block;
+    margin: 5px auto;          /* центрируем по горизонтали и вертикали */
+
+}
+
+td.right > img[src^="https://static.lioden.com/images/tags/0/0/"]:hover {
+    opacity: 1;
+}
+
+
+/* CIRCULAR LION AND USER AVATAR */
+
+/* Внешний контейнер — делаем круг и обрезку */
+.lion-image-block[data-image-type="headshot"] {
+    position: relative;
+    display: inline-block;       /* чтобы размер шел по содержимому */
+    border-radius: 50%;          /* круг */
+    overflow: hidden;            /* ОЧЕНЬ важно — обрезает всё внутри по кругу */
+    -webkit-clip-path: circle(50% at 50% 50%);
+    clip-path: circle(50% at 50% 50%);
+
+    /* при необходимости задать явный размер (раскомментируй и поправь) */
+    /* width: 150px;
+       height: 150px; */
+}
+
+/* Не трогаем абсолютные координаты/inline-стили у <img> — слои остаются на месте.
+   Но на всякий случай сделаем их "незаметнее" при наведении и сохраним вертикальное выравнивание */
+.lion-image-block[data-image-type="headshot"] img {
+    border: 0;               /* убираем стандартные рамки */
+    outline: 0;
+    box-shadow: none;
+    vertical-align: middle;
+    /* НЕ задаём border-radius для отдельных img — это ломает композицию */
+}
+
+/* Рамка поверх круга — теперь задаём её внутри (чтобы не обрезалась родителем) */
+.lion-image-block[data-image-type="headshot"]::after {
+    content: "";
+    position: absolute;
+    inset: 0;                      /* заполнить область контейнера */
+    margin: 0;
+    pointer-events: none;
+    z-index: 9999;
+
+    /* делаем фон рамки чуть больше круга с помощью background-size + transform */
+    background-image: url("https://raw.githubusercontent.com/SuRuYong/lioden-css/refs/heads/main/6b555763a9ff0815cff7d45480f03ff4d1ca4ab3.png?raw=true");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 120% 120%;    /* увеличиваем, чтобы рамка "выглядела" наружу */
+
+    /* если хочется сильнее эффект "выходит наружу", можно увеличить scale,
+       но это уменьшит видимую часть рамки, если она выходит за круг */
+    transform: scale(1);           /* можно ставить 1.05 / 1.1 если нужно */
+}
+
+/* Дополнительно: если image-layer используют pointer-events для hover, и JS всё равно добавляет бордеры,
+   можно скрыть их визуально перекрытием полупрозрачной маской при hover (опционально) */
+.lion-image-block[data-image-type="headshot"]::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 9998;
+    /* прозрачная маска, если нужно приглушить побочные бордеры: */
+    background: transparent;
+}
+
+table#player img {
+	border-radius: 100% !important;
+	overflow: hidden;
+}
+.rcredits {
+font-size: 11px;
+opacity: 50%;
+transition: 1s ease;
+ }
+
+.rcredits:hover {
+font-size: 15px;
+transition: 1s ease;
+opacity: 100%;
+ }
+
+/* LIODEN LOGO REPLACER */
+
+    div.container.main > div:nth-child(1) > nav > div.navbar-header > a > img {
+	content: url('https://i.postimg.cc/P55ZzGH6/beautiful-glowing-gray-full-moon-(1).png');
+}
+
+/* Лого по умолчанию */
+.navbar-brand.visible-lg.visible-md img {
+    opacity: 0.8;                      /* прозрачность 80% */
+    transition: transform 0.6s ease, opacity 0.4s ease; /* плавный переход */
+    display: block;
+    transform: scale(1);               /* стартовый размер */
+}
+
+/* При наведении */
+.navbar-brand.visible-lg.visible-md:hover img {
+    opacity: 1;                        /* полностью непрозрачное */
+    transform: scale(1.15);            /* увеличиваем на 15% */
+    transition: transform 0.6s cubic-bezier(0.34, 1.56, 0.64, 1), opacity 0.4s ease;
+}
+
+/* CAVE */
+/*Unsorted Lions*/
+img[src$="unsortedlionsbanner.png"] {
+content: url('https://i.imgur.com/ud3pALW.jpeg')!important;
+width: 260px;
+	height: 60px;
+	object-fit: cover;
+	
+opacity: 60%;
+transition: opacity 0.3s ease;
+	  transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1); /* spring effect */
+    display: inline-block; /* важно для transform */
+}
+img[src$="unsortedlionsbanner.png"]:hover {
+opacity: 100%;
+  transform: scale(1.05);         /* увеличиваем текст на 15% */
+}
+
+/*Nesting*/
+img[src$="nestingbanner.png"] {
+content: url('https://i.imgur.com/ud3pALW.jpeg')!important;
+	width: 260px;
+	height: 60px;
+	object-fit: cover;
+	
+opacity: 60%;
+transition: opacity 0.3s ease;
+	transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1); /* spring effect */
+    display: inline-block; /* важно для transform */
+}
+img[src$="nestingbanner.png"]:hover {
+opacity: 100%;
+	transform: scale(1.05);         /* увеличиваем текст на 15% */
+}
+
+
+/*Overview*/
+img[src$="overviewbanner.png"] {
+content: url('https://i.imgur.com/ud3pALW.jpeg')!important;
+	width: 260px;
+	height: 60px;
+	object-fit: cover;
+	
+opacity: 60%;
+transition: opacity 0.3s ease;
+	transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1); /* spring effect */
+    display: inline-block; /* важно для transform */
+}
+img[src$="overviewbanner.png"]:hover { 
+opacity: 100%;
+transform: scale(1.05);         /* увеличиваем текст на 15% */
+}
+
+
+/* Other caves */
+img[src$="cavedefault.jpg"] {
+content: url("https://i.imgur.com/ud3pALW.jpeg") !important;
+	width: 240px;
+	height: 120px;
+	object-fit: cover;
+	
+opacity: 60%;
+transition: opacity 0.3s ease;
+	transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1); /* spring effect */
+    display: inline-block; /* важно для transform */
+}
+img[src$="cavedefault.jpg"]:hover {
+  opacity: 100%;
+	transform: scale(1.05);         /* увеличиваем текст на 15% */
+}
+
+/* Неиспользованные кейвы */
+img[src$="caveunused.jpg"] {
+content: url("https://i.imgur.com/hpmeNES.jpeg") !important;
+	width: 240px;
+	height: 120px;
+	object-fit: cover;
+	
+opacity: 60%;
+/*transition: opacity 0.3s ease;*/
+}
+/*img[src$="caveunused.jpg"]:hover {
+  opacity: 100%;
+}*/
+
+/* Жуки */
+img[src$="beetleunsorted.png"] {
+content: url("https://i.imgur.com/h5o3sJr.jpeg") !important;
+	width: 180px;
+	height: 80px;
+	object-fit: cover;
+	
+opacity: 60%;
+transition: opacity 0.3s ease;
+	transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1); /* spring effect */
+    display: inline-block; /* важно для transform */
+}
+img[src$="beetleunsorted.png"]:hover {
+  opacity: 100%;
+	transform: scale(1.05);         /* увеличиваем текст на 15% */
+}
+
+/* Активные жуки */
+img[src$="beetlemound.png"] {
+content: url("https://i.imgur.com/h5o3sJr.jpeg") !important;
+	width: 180px;
+	height: 80px;
+	object-fit: cover;
+	
+opacity: 60%;
+transition: opacity 0.3s ease;
+	transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1); /* spring effect */
+    display: inline-block; /* важно для transform */
+}
+img[src$="beetlemound.png"]:hover {
+  opacity: 100%;
+	transform: scale(1.05);         /* увеличиваем текст на 15% */
+}
+
+
+/* Пустые жуки */
+img[src$="addbeetlemound.jpg"] {
+content: url("https://i.imgur.com/hpmeNES.jpeg") !important;
+	width: 240px;
+	height: 120px;
+	object-fit: cover;
+	
+opacity: 60%;
+/*transition: opacity 0.3s ease;*/
+}
+/*img[src$="addbeetlemound.png"]:hover {
+  opacity: 100%;
+}*/
+
+/* MAKES BOXES/DESCRIPTION SHOW ON MOBILE */
+
+@media only screen and (max-width: 767px) {
+        .container.main .hidden-xs {
+            display: block !important;
+        }
+}
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+	display: block !important;
+}
+
+@media only screen and (min-width: 1200px) {
+		div.quote {
+			width: 790px;
+		} }
+/* Курсор */
+/* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/nature/nat-6/nat598.cur), auto !important;} /* End https://www.cursors-4u.com */
+
+/* Codes made by Pandora #144118  
+Codes may be edited, used in commissions or for personal use
+Please do not remove credit
+*/
+ 
+/* Custom featured lion cave background */
+
+.lionImage>div>img:first-child {
+    content: url('https://img.screencaps.us/200/1-spirited-awaybr/full/spirited-awaybr-disneyscreencaps.com-2242.jpg');
+    max-width: 640px !important;
+    height: 500px !important;
+    opacity: 80%;
+    }
+/* MEMBER OFFLINE AND ONLINE */
+ 
+.member-offline {
+    background: rgba(207,207,207,0);
+    content:url('https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZmd1ZGFkazJzN3g0MDJodGQ2NjUydTQ3anNkeHFrcXUyanh2YnBuOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/YqL7wobl36TXvw4SxO/giphy.gif')!important;
+     width:25px!important;
+     height:25px;
+ 
+}
+
+.member-online {
+    background: rgba(207,207,207,0);
+    content:url('https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExcm8zdmhhanFsOTA3OTdxeHM3M2tpMncwdzk2aXl2em9jaDY5MHBxMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/8oWXXaXFzcVcGMxltv/giphy.gif')!important;
+     width:25px!important;
+     height:25px;
+ 
+}
+/* REMOVE WHITE LINE */
+hr {
+display: none; }
+
+table#clans.table {
+	opacity: 80%;
+}
+
+.col-xs-10 {
+	opacity: 80%;
+}
+/* TIME */
+ 
+/* TIME DAY 
+img[src$="day.png"] {
+    content:url('https://i.imgur.com/7Kl1yjG.gif')!important;
+    width:20px!important;
+ 
+}
+ 
+/* TIME NIGHT 
+img[src$="night.png"] {
+    content:url('https://i.imgur.com/cdldmBx.gif')!important;
+    width:20px!important;
+} */
+ 
+/* SEASON */
+ 
+/* DRY SEASON 
+img[src$="dry.png"] {
+    content:url('https://i.imgur.com/Q9tyPDj.png')!important;
+    width:20px!important;
+ 
+} */
+/* GB/SB ICONS */
+ 
+/* GOLD BEETLE */
+img[src$="gold.png"] {
+    /*content:url('https://i.postimg.cc/ht9zScF8/d9vd2cn-fcbba210-a375-4320-92b4-f7a03b95e359.gif')!important;*/
+    width:20px!important;
+	opacity: 80%;
+ 
+} 
+ 
+/* SILVER BEETLE */
+ img[src$="silver.png"] {
+    /*content:url('https://i.postimg.cc/wBgtMZHC/silver.gif')!important;*/
+    width:20px!important;
+	 opacity: 80%;
+ 
+}
+ 
+/* EVENT CURRENCY */
+ 
+/* JAN 
+img[src$="dermestid.png"] {
+    content:url('https://i.imgur.com/rfhy9d9.png')!important;
+    width:20px!important;
+ 
+}
+ 
+/* FEB 
+img[src$="heartshell.png"] {
+    content:url('https://i.imgur.com/rfhy9d9.png')!important;
+    width:20px!important;
+ 
+}
+ 
+/* MARCH 
+img[src$="beetlerhino.png"] {
+    content:url('https://i.imgur.com/rfhy9d9.png')!important;
+    width:20px!important;
+ 
+}
+ 
+/* APRIL 
+img[src$="easteregg.png"] {
+    content:url('https://i.imgur.com/rfhy9d9.png')!important;
+    width:20px!important;
+ 
+}
+ 
+ 
+/* MAY 
+img[src$="beetlemant.png"] {
+    content:url('https://i.imgur.com/rfhy9d9.png')!important;
+    width:20px!important;
+ 
+}
+ 
+/* JUNE 
+img[src$="khepri.png"] {
+    content:url('https://i.imgur.com/rfhy9d9.png')!important;
+    width:20px!important;
+ 
+}
+ 
+/* JULY MS 
+img[src$="shard.png"] {
+    content:url('https://i.imgur.com/QkQxxir.png')!important;
+    width:20px!important;
+ 
+}
+ 
+/* JULY AC 
+img[src$="axion.png"] {
+    content:url('https://i.imgur.com/rfhy9d9.png')!important;
+    width:20px!important;
+ 
+}
+ 
+/* AUG CB 
+img[src$="beetlecarrion.png"] {
+    content:url('https://i.imgur.com/QkQxxir.png')!important;
+    width:20px!important;
+ 
+}
+ 
+/* AUG DB 
+img[src$="bone.png"] {
+    content:url('https://i.imgur.com/rfhy9d9.png')!important;
+    width:20px!important;
+ 
+}
+ 
+/* SEPT JB 
+img[src$="beetlejewel.png"] {
+    content:url('https://i.imgur.com/QkQxxir.png')!important;
+    width:20px!important;
+ 
+}
+ 
+/* SEPT ET 
+img[src$="eldritch.png"] {
+    content:url('https://i.imgur.com/rfhy9d9.png') !important;
+    width:20px!important;
+ 
+}
+ 
+/* OCT BB 
+img[src$="beetleblood.png"] {
+    content:url('https://i.imgur.com/QkQxxir.png')!important;
+    width:20px!important;
+ 
+}
+ 
+/* OCT NF 
+img[src$="nephelinefeather.png"] {
+    content:url('https://i.imgur.com/rfhy9d9.png')!important;
+    width:20px!important;
+ 
+}
+ 
+/* OCT DS 
+img[src$="demonicscale.png"] {
+    content:url('https://i.imgur.com/zeF9HuJ.png')!important;
+    width:20px!important;
+ 
+}
+ 
+/* NOV 
+img[src$="scarabbeetle.png"] {
+    content:url('https://i.imgur.com/rfhy9d9.png')!important;
+    width:20px!important;
+ 
+}
+ 
+/* DEC 
+img[src$="stinkbug.png"] {
+    content:url('https://i.imgur.com/rfhy9d9.png')!important;
+    width:20px!important;
+ 
+}
+*/
