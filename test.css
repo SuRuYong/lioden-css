@@ -444,10 +444,12 @@ width: 275px;
 	
 opacity: 60%;
 transition: opacity 0.3s ease;
+display: inline-block; /* важно для transform */
+	
 }
 img[src$="ancestors.png"]:hover {
 opacity: 100%;
-
+transform: scale(1.15);         /* увеличиваем текст на 15% */
 }
  
 /* PRIDE DYNASTY */
