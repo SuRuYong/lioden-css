@@ -9,7 +9,7 @@ Please do NOT remove this credit, unless your coding becomes unrecognizable from
 
 /* Загрузка шрифта */
 
-@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
 
 /* Фон и весь текст не считая шапки, название логова */
 
@@ -19,7 +19,7 @@ body {
         height: 100%;
         width: 100%;
         background-repeat: no-repeat;
-	font-family: "Leckerli One", cursive;
+	font-family: "Pirata One", system-ui;
         color: #c9c6ee;
 	text-shadow: #b8b3c9 1px 0px 8px !important;
 }
