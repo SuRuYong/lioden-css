@@ -160,6 +160,27 @@ button.button:hover {
 	transform: scale(1.15);         /* увеличиваем текст на 15% */
 }
 
+/* BUG BOX BUTTON */
+
+a.btn.btn-default.button {
+	background: rgba(30, 27, 37, 0.8) !important;
+        border: 0px solid #413d54 !important;
+	border-radius: 5px;
+        color: #cac6cf !important; 
+	text-shadow: 1px 1px 0px #605d79 !important;
+	   transition: transform 0.6s cubic-bezier(0.34, 1.56, 0.64, 1); /* spring effect */
+    display: inline-block; /* важно для transform */
+}
+
+a.btn.btn-default.button:hover {
+	background: rgba(30, 27, 37, 0.8) !important;
+        border: 0px solid #413d54 !important;
+	border-radius: 5px;
+        color: #c8bfd6 !important; 
+        text-shadow: 1px 1px 2px #796fa1 !important;
+	transform: scale(1.15);         /* увеличиваем текст на 15% */
+}
+
 /* ALERTS (ie. "Your lionesses have returned from hunting!") */
 
 .alert,
