@@ -14,7 +14,7 @@ Please do NOT remove this credit, unless your coding becomes unrecognizable from
 /* Фон и весь текст не считая шапки, название логова */
 
 body {
-	background: url('https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZnhuMzZyZzN5ZWZwcGZ3d3hpYXo2eWFpNjJuOWI0NG5zYmx0d29lOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/eIafwZvpxk9sm3P6VH/giphy.gif') center center fixed;
+	background: url('https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExa2UxbHZ6ZjdlbW45cGxrY2gxc2l4MWgxbHlpZHhsdHkxbTI5ZnhpZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/uqe7fb2xV4d68/giphy.gif') center center fixed;
 	background-size: cover;
         height: 100%;
         width: 100%;
