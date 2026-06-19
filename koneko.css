@@ -14,8 +14,7 @@ Please do NOT remove this credit, unless your coding becomes unrecognizable from
 /* Фон и весь текст не считая шапки, название логова */
 
 body {
-	background: url('https://tenor.com/ru/view/nube-sky-starry-night-stars-gif-12650209') center center fixed;
-	<div class="tenor-gif-embed" data-postid="12650209" data-share-method="host" data-aspect-ratio="1.78395" data-width="100%"><a href="https://tenor.com/view/nube-sky-starry-night-stars-gif-12650209">Nube Sky GIF</a>from <a href="https://tenor.com/search/nube-gifs">Nube GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+	background: url('https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExN21xazV3NTIyY3Y0bWZ6cWx6YXA4MnVpa2JjcDVxYjJkbjM1bXU0biZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o7bu2drvXlavjcr2E/giphy.gif') center center fixed;
 	background-size: cover;
         height: 100%;
         width: 100%;
