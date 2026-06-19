@@ -956,11 +956,11 @@ transition: 1s ease;
 opacity: 100%;
  }
 
-/* LIODEN LOGO REPLACER */
+/* LIODEN LOGO REPLACER 
 
     div.container.main > div:nth-child(1) > nav > div.navbar-header > a > img {
 	content: url('https://i.postimg.cc/mkJpqXCr/transparent-glowing-lens-flare-background.png');
-}
+}*/
 
 /* Лого по умолчанию */
 .navbar-brand.visible-lg.visible-md img {
