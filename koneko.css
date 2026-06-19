@@ -349,7 +349,7 @@ button#label_currentChannel /* Channel Button ie. Main, Sales */ {
     width: 100%;
     height: 100%;
     opacity: 60%;
-    background-image:     url('https://wallpapershome.com/images/pages/pic_h/26273.jpg') !important;
+    background-image:     url('https://wallpapershome.com/images/pages/pic_h/25987.jpg') !important;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -458,7 +458,7 @@ box-shadow: 0px 1px 1px black;
  
 /* KING DYNASTY */
  img[src$="ancestors.png"] {
-content: url('https://i.imgur.com/ud3pALW.jpeg')!important;
+content: url('https://i.imgur.com/DV2uemb.jpeg')!important;
 width: 275px;
 	height: 50px;
 	object-fit: cover;
@@ -476,7 +476,7 @@ transform: scale(1.05);         /* увеличиваем текст на 15% */
  
 /* PRIDE DYNASTY */
  img[src$="den_ancestorsfem.png"] {
-content: url('https://i.imgur.com/ud3pALW.jpeg')!important;
+content: url('https://i.imgur.com/DV2uemb.jpeg')!important;
 width: 275px;
 	height: 50px;
 	object-fit: cover;
@@ -494,7 +494,7 @@ opacity: 100%;
  
 /* ACHIEVMENTS */
  img[src$="den_achievements.png"] {
-content: url('https://i.imgur.com/ud3pALW.jpeg')!important;
+content: url('https://i.imgur.com/DV2uemb.jpeg')!important;
 width: 275px;
 	height: 50px;
 	object-fit: cover;
@@ -511,7 +511,7 @@ transform: scale(1.05);         /* увеличиваем текст на 15% */
  
 /* SHOWCASE */
  img[src$="den_showcase.png"] {
-content: url('https://i.imgur.com/ud3pALW.jpeg')!important;
+content: url('https://i.imgur.com/DV2uemb.jpeg')!important;
 width: 275px;
 	height: 50px;
 	object-fit: cover;
@@ -527,7 +527,7 @@ transform: scale(1.05);         /* увеличиваем текст на 15% */
 }
 /* Beetle Book*/
  img[src$="den_beetlebook.png"] {
-content: url('https://i.imgur.com/ud3pALW.jpeg')!important;
+content: url('https://i.imgur.com/DV2uemb.jpeg')!important;
 width: 275px;
 	height: 50px;
 	object-fit: cover;
@@ -917,7 +917,7 @@ td.right > img[src^="https://static.lioden.com/images/tags/0/0/"]:hover {
     z-index: 9999;
 
     /* делаем фон рамки чуть больше круга с помощью background-size + transform */
-    background-image: url("https://raw.githubusercontent.com/SuRuYong/lioden-css/refs/heads/main/6b555763a9ff0815cff7d45480f03ff4d1ca4ab3.png?raw=true");
+    background-image: url("https://raw.githubusercontent.com/SuRuYong/lioden-css/refs/heads/main/036404a048d498394e3847bf4d156c55e7969439.png?raw=true");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 120% 120%;    /* увеличиваем, чтобы рамка "выглядела" наружу */
@@ -959,7 +959,7 @@ opacity: 100%;
 /* LIODEN LOGO REPLACER */
 
     div.container.main > div:nth-child(1) > nav > div.navbar-header > a > img {
-	content: url('https://i.postimg.cc/P55ZzGH6/beautiful-glowing-gray-full-moon-(1).png');
+	content: url('https://i.postimg.cc/GpX4jkJ3/443.jpg');
 }
 
 /* Лого по умолчанию */
@@ -980,7 +980,7 @@ opacity: 100%;
 /* CAVE */
 /*Unsorted Lions*/
 img[src$="unsortedlionsbanner.png"] {
-content: url('https://i.imgur.com/ud3pALW.jpeg')!important;
+content: url('https://i.imgur.com/DV2uemb.jpeg')!important;
 width: 260px;
 	height: 60px;
 	object-fit: cover;
@@ -997,7 +997,7 @@ opacity: 100%;
 
 /*Nesting*/
 img[src$="nestingbanner.png"] {
-content: url('https://i.imgur.com/ud3pALW.jpeg')!important;
+content: url('https://i.imgur.com/DV2uemb.jpeg')!important;
 	width: 260px;
 	height: 60px;
 	object-fit: cover;
@@ -1015,7 +1015,7 @@ opacity: 100%;
 
 /*Overview*/
 img[src$="overviewbanner.png"] {
-content: url('https://i.imgur.com/ud3pALW.jpeg')!important;
+content: url('https://i.imgur.com/DV2uemb.jpeg')!important;
 	width: 260px;
 	height: 60px;
 	object-fit: cover;
@@ -1033,7 +1033,7 @@ transform: scale(1.05);         /* увеличиваем текст на 15% */
 
 /* Other caves */
 img[src$="cavedefault.jpg"] {
-content: url("https://i.imgur.com/ud3pALW.jpeg") !important;
+content: url("https://i.imgur.com/DV2uemb.jpeg") !important;
 	width: 240px;
 	height: 120px;
 	object-fit: cover;
@@ -1128,7 +1128,7 @@ opacity: 60%;
 			width: 790px;
 		} }
 /* Курсор */
-/* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/nature/nat-6/nat598.cur), auto !important;} /* End https://www.cursors-4u.com */
+/* Start https://www.cursors-4u.com */ * {cursor: url(https://www.cursors-4u.com/cursor/sun-2-2.cur), auto !important;} /* End https://www.cursors-4u.com */
 
 /* Codes made by Pandora #144118  
 Codes may be edited, used in commissions or for personal use
