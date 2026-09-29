@@ -20,8 +20,8 @@ body {
         width: 100%;
         background-repeat: no-repeat;
 	font-family: "Metamorphous", serif;
-        color: #c9c6ee;
-	text-shadow: #b8b3c9 1px 0px 8px !important;
+        color: #fae1f6;
+	text-shadow: #c9abc4 1px 0px 8px !important;
 }
 
 /* Основа */
@@ -208,18 +208,18 @@ a.btn.btn-default.button:hover {
 /* BIGGEST HEADER ("___"'s DEN) */
 
 h1 {
-	color: #b8b3c9 !important;
+	color: #c9abc4 !important;
 	font-size: 60px;
 	text-align: center;
         font-family: "Almendra";
-text-shadow: #b8b3c9 1px 0px 8px !important;
+text-shadow: #c9abc4 1px 0px 8px !important;
 }
 
 
 /* MEDIUM HEADER */
 
 h2 {
-	color: #b8b3c9;
+	color: #c9abc4;
 	font-size: 24px;
 	text-align: center;
 text-shadow: 1px 2px 2px #362d45;
@@ -229,7 +229,7 @@ text-shadow: 1px 2px 2px #362d45;
 /* SMALL HEADER */
 
 h3 {
-	color: #b8b3c9 !important;
+	color: #c9abc4 !important;
 	font-size: 14px !important;
 text-shadow: 1px 2px 2px #362d45;
 }
@@ -237,11 +237,11 @@ text-shadow: 1px 2px 2px #362d45;
 /* RIGHT SIDE PANEL HEADER */
 
 .sidebar h3 {
-	color: #b8b3c9 !important;
+	color: #c9abc4 !important;
         font-size: 26px !important;
         font-family: "Almendra", serif;
 	text-align: center;
-	text-shadow: #b8b3c9 1px 0px 8px;
+	text-shadow: #c9abc4 1px 0px 8px;
 }
 
 /* RIGHT SIDE PANELS */
@@ -288,24 +288,24 @@ text-shadow: 1px 2px 2px #cecbeb !important;
 
 .s-chat-message:nth-child(even) /* Even Numbered Messages */ {
 	background: rgba(22, 30, 66, 0.9) !important;
-        color: #b8b3c9 !important;
+        color: #c9abc4 !important;
 	border: none !important
 }
 
 .s-chat-message:nth-child(odd) /* Odd Numbered Messages */ {
 	background: rgba(1, 1, 1, 0.2) !important;
-        color: #b8b3c9 !important;
+        color: #c9abc4 !important;
 	border: none !important
 }
 
 .s-chat-message__pinned /* Pinned Message */ {
 	background: rgba(1, 1, 1, 0.2) !important;
-        color: #b8b3c9 !important;
+        color: #c9abc4 !important;
 	border: none !important
 }
 
 .s-chat-message_timestamp /* Timestamps */ {
-	color: #b8b3c9 !important;
+	color: #c9abc4 !important;
 }
 
 div#chatMessageContainer {
@@ -314,7 +314,7 @@ div#chatMessageContainer {
 
 button#label_currentChannel /* Channel Button ie. Main, Sales */ {
 	background: rgba(1, 1, 1, 0.5) !important;
-        color: #b8b3c9 !important;
+        color: #c9abc4 !important;
 	border: none !important
 }
 
@@ -363,7 +363,7 @@ button#label_currentChannel /* Channel Button ie. Main, Sales */ {
 th {
 	background: rgba(30,27,37,0.8) !important;
 /*background: linear-gradient(0deg, rgba(34, 24, 61, 1) 0%, rgba(10, 10, 40, 0.81) 100%) !important;*/
-	color: #b8b3c9 !important;
+	color: #c9abc4 !important;
 	border-radius: 5px !important;
          text-shadow: 1px 1px 2px #453e54; 
 
@@ -390,14 +390,14 @@ td.bottom a {
 
 .inner-table .left {
 	background: rgba(38, 30, 53, 0.6) !important;
-        color: #b8b3c9;
+        color: #c9abc4;
         text-shadow: 1px 3px 2px black !important;
 	border-radius: 5px !important;
 box-shadow: 1px 2px 1px #1b1930 !important;
 }
 /* LION NAME COLOR */
 #about .xlarge.b .bigger {
-        color: #b8b3c9 !important;
+        color: #c9abc4 !important;
         z-index: 1;
         position:relative;
 }
@@ -410,7 +410,7 @@ box-shadow: 1px 2px 1px #1b1930 !important;
 	background: rgba(38, 30, 53, 0.6);
 	border-radius: 5px !important;
 box-shadow: 1px 2px 1px #1b1930 !important;
-color: #b8b3c9;
+color: #c9abc4;
  text-shadow: 1px 2px 3px #6a6782 !important;
 }
 
@@ -560,7 +560,7 @@ textarea {
 	box-shadow: 1px 2px 1px #1b1930 !important;
 	border: solid 2px #1b1930 !important;
 	border-radius: 5px !important;
-	color: #b8b3c9 !important;
+	color: #c9abc4 !important;
 	box-shadow: none !important;
 	text-shadow: none !important;
 }
@@ -595,7 +595,7 @@ div.slider.round::before /* Circle Part */ {
 /* Copyright, Terms of Service, CoC, etc. */
 
 div.container.footer.center.white.visible-lg.visible-md.visible-sm, div.container.footer.center.white.visible-lg.visible-md.visible-sm a {
-        color: #b8b3c9 !important;
+        color: #c9abc4 !important;
         text-shadow: 1px 1px 1
 px #978cb8 !important;
 }
@@ -605,7 +605,7 @@ px #978cb8 !important;
 a:link,
 a:visited {
 	color: #cac6cf !important;
-text-shadow: #b8b3c9 1px 0px 8px !important;
+text-shadow: #c9abc4 1px 0px 8px !important;
 	border-bottom: 0px solid #cac6cf !important;
 	transition: 0.5s !important;
 }
@@ -652,7 +652,7 @@ a:hover {
 	float: right;
 	background: rgb(65,58,83);
 background: linear-gradient(0deg, rgba(90, 75, 102, 0.5) 0%, rgba(30, 6, 46, 0.7) 100%);
-	color: #b8b3c9;
+	color: #c9abc4;
 	padding: 10px;
 	border: solid 1px #9d99ba;
     box-shadow: 0px 0px 10px 2px #6a6782;
@@ -670,7 +670,7 @@ background: linear-gradient(0deg, rgba(90, 75, 102, 0.5) 0%, rgba(30, 6, 46, 0.7
 	float: left;
 	background: rgb(65,58,83);
 background: linear-gradient(0deg, rgba(90, 75, 102, 0.5) 0%, rgba(30, 6, 46, 0.7) 100%);
-	color: #b8b3c9;
+	color: #c9abc4;
 	padding: 10px;
 	border: solid 1px #9d99ba;
     box-shadow: 0px 0px 10px 2px #6a6782;
@@ -688,7 +688,7 @@ background: linear-gradient(0deg, rgba(90, 75, 102, 0.5) 0%, rgba(30, 6, 46, 0.7
 	float: center;
 	background: rgb(65,58,83);
 background: linear-gradient(0deg, rgba(90, 75, 102, 0.5) 0%, rgba(30, 6, 46, 0.7) 100%);
-	color: #b8b3c9;
+	color: #c9abc4;
 	padding: 10px;
 	border: solid 1px #9d99ba;
         box-shadow: 0px 0px 10px 2px #6a6782;
@@ -708,7 +708,7 @@ background: linear-gradient(0deg, rgba(90, 75, 102, 0.5) 0%, rgba(30, 6, 46, 0.7
 	float: right;
 	background: rgb(65,58,83);
 background: linear-gradient(0deg, rgba(90, 75, 102, 0.5) 0%, rgba(30, 6, 46, 0.7) 100%);
-	color: #b8b3c9;
+	color: #c9abc4;
 	padding: 10px;
 	border: solid 1px #9d99ba;
     box-shadow: 0px 0px 10px 2px #6a6782;
@@ -731,7 +731,7 @@ background: linear-gradient(0deg, rgba(90, 75, 102, 0.5) 0%, rgba(30, 6, 46, 0.7
 	float: left;
 	background: rgb(65,58,83);
 background: linear-gradient(0deg, rgba(90, 75, 102, 0.5) 0%, rgba(30, 6, 46, 0.7) 100%);
-	color: #b8b3c9;
+	color: #c9abc4;
 	padding: 10px;
 	border: solid 1px #9d99ba;
     box-shadow: 0px 0px 10px 2px #6a6782;
@@ -754,7 +754,7 @@ background: linear-gradient(0deg, rgba(90, 75, 102, 0.5) 0%, rgba(30, 6, 46, 0.7
 	float: center;
 	background: rgb(65,58,83);
 background: linear-gradient(0deg, rgba(90, 75, 102, 0.5) 0%, rgba(30, 6, 46, 0.7) 100%);
-	color: #b8b3c9;
+	color: #c9abc4;
 	padding: 10px;
 	border: solid 1px #9d99ba;
     box-shadow: 0px 0px 10px 2px #6a6782;
