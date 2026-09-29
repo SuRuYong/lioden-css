@@ -9,17 +9,17 @@ Please do NOT remove this credit, unless your coding becomes unrecognizable from
 
 /* Загрузка шрифта */
 
-@import url('https://fonts.googleapis.com/css2?family=Almendra:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Metamorphous&display=swap');
 
 /* Фон и весь текст не считая шапки, название логова */
 
 body {
-	background: url('https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWFicno4dzNqM2NhMzJseGt1Y2dpZnhqeDI2dmFsczVsbTVrcGR4OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/RHIKETUlUINYvV7CAO/giphy.gif') center center fixed;
+	background: url('https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTQxZW1xNm13aXJ0dGVlMGRweTByd3I1YzJ1eW03ODlla2QxZGprYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/eIafwZvpxk9sm3P6VH/giphy.gif') center center fixed;
 	background-size: cover;
         height: 100%;
         width: 100%;
         background-repeat: no-repeat;
-	font-family: "Almendra", serif;
+	font-family: "Metamorphous", serif;
         color: #c9c6ee;
 	text-shadow: #b8b3c9 1px 0px 8px !important;
 }
